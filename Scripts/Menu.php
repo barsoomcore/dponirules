@@ -30,7 +30,7 @@ $mainlist = array (
 $sublist = array (
     "basiclist" => array (
         "url" => array ("Basics.php", "BasicsAbilities.php", "BasicsCombat.php", "BasicsSavingThrows.php", "BasicsStunts.php", "BasicsConviction.php", "BasicsReputation.php", "BasicsTime.php"),
-        "name" => array ("The Rules", "Abilities", "Combat Basics", "Saving Throws", "Stunts", "Conviction", "Reputation", "Time")
+        "name" => array ("The Rules", "Abilities", "Attack Rolls", "Saving Throws", "Stunts", "Conviction", "Reputation", "Time")
     ),
     
     "chargenlist" => array (

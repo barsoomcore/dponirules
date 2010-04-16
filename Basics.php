@@ -20,7 +20,7 @@ result is lower than the Difficulty, the action fails. This simple system
 is used for nearly everything in DPoNI, with variations based on the 
 modifiers added to a roll, the Difficulty, and the effects of success and 
 failure.</p>
-<p>There are three primary types of rolls that all use this mechanic: checks, <a href="Combat.php">attack rolls</a> and <a href="BasicsSavingThrows.php">saving throws</a>.</p>
+<p>There are three primary types of rolls that all use this mechanic: checks, <a href="BasicsCombat.php">attack rolls</a> and <a href="BasicsSavingThrows.php">saving throws</a>.</p>
 
 <h2>Checks</h2>
 <p>You make a check any time you want to use a <a href="Skills.php">skill</a>, a <a href="Powers.php">power</a>, or an <a href="BasicsAbilities.php">ability</a>. Checks work exactly as described in the core system. The Difficulties for checks are either set by the Narrator or by an opposing roll from another character. You can usually try again for any check, although you may suffer consequences from failing a check (such as <a href="Skills.php?Name=Climb">Climb</a> or <a href="Skills.php?Name=Stealth">Stealth</a>).</p>
