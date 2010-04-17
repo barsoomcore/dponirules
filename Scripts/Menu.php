@@ -29,8 +29,8 @@ $mainlist = array (
 
 $sublist = array (
     "basiclist" => array (
-        "url" => array ("Basics.php", "BasicsAbilities.php", "BasicsCombat.php", "BasicsSavingThrows.php", "BasicsStunts.php", "BasicsConviction.php", "BasicsReputation.php", "BasicsTime.php"),
-        "name" => array ("The Rules", "Abilities", "Attack Rolls", "Saving Throws", "Stunts", "Conviction", "Reputation", "Time")
+        "url" => array ("Basics.php", "BasicsAbilities.php", "BasicsChecks.php", "BasicsCombat.php", "BasicsSavingThrows.php", "BasicsStunts.php", "BasicsConviction.php", "BasicsReputation.php", "BasicsTime.php"),
+        "name" => array ("The Rules", "Abilities", "Checks", "Attack Rolls", "Saving Throws", "Stunts", "Conviction", "Reputation", "Time")
     ),
     
     "chargenlist" => array (
