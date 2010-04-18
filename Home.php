@@ -11,8 +11,7 @@
 	}
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel=stylesheet media="screen" href="DPoNISRDStyle.css" type="text/css">
-<link rel=stylesheet media="only screen and (max-device-width: 480px)" href="DPoNISRDiPhoneStyle.css" type="text/css">
+<link rel=stylesheet media="screen" href="/dponiwiki/media/dponiwikiStyle.css" type="text/css">
 <link rel="icon" type="image/png" href="/dponiwiki/media/images/favicon.png">
 </head>
 <body>
@@ -23,19 +22,19 @@
 	$sfFeedItems = getFeed(SFURL);
 
 ?>
-<div class="banner">
+<div id="banner">
 <a href="http://www.scratchfactory.com">
 	<img src="/dponiwiki/media/images/SFTransparentLogo.png" style="padding-top:5px;float:right;"></a>
 <img style="border: none; padding-left: 25px;" src="/dponiwiki/media/images/Banner.png" alt="Banner">
 </div>
-<div class="nav">
+<div id="nav">
 <ul>
 	<li><strong><a href="Home.php">DPoNI Home</a></strong></li>
 	<li><a href="Basics.php">The Rules</a></li>
 	<li><a href="/dponiwiki/">The Setting</a></li>
 </ul>
 </div>
-<div class="content">
+<div id="content">
 
 <p style="font-size:70%"><em>Ninjas, pirates, and dinosaurs. A fantasy Asia, filled with warring island nations. Samurai mounted on domesticated raptors. Bigger dinosaurs hunted by quasi-Polynesian tribesmen. Dueling factions of shadow warriors. Privateers and buccaneers battling the servants of the Imperial Navy. Fallen kingdoms deep in forgotten jungles. And we call it...</em></p>
 
