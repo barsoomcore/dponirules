@@ -11,38 +11,38 @@
 
 <h2>Effects of Poison</h2>
 
-<p>When a target is affected by a poison, that target makes an immediate Fortitude save against the listed Difficulty for the poison. If that save is failed, then at the listed Initial Onset Time from the poisoning the target suffers the listed Initial Damage. At that time the target makes a second Fortitude save at the same Difficulty, and again, if this save is failed, the target will take the listed Secondary Damage at the Secondary Onset Time.
+<p>When a target is affected by a poison, that target makes an immediate Fortitude save against the listed Difficulty for the poison. If that save is failed, then the target takes the listed damage at the end of the current scene. At the start of the next scene the target makes a second Fortitude save at the same Difficulty, and again, if this save is failed, the target will take the same damage again at the end of that scene.</p>
 
-<p>Note that very few poisons will kill a normal person in a short enough time to be useful in combat situations. Most poisons are used to weaken enemies and make them easier to kill.</p>
+<p>Damage dealt by poisons is recovered as normal.</p>
 
 <h2>Making Poisons</h2>
 
-<p>Characters can learn one poison from the list below for every rank of <a href="Skills.php?Name=Craft">Craft (poison)</a> they possess. Note that some poisons have more than one entry, corresponding to different delivery types; each such entry counts as a separate poison.</p>
+<p>Poisons are created using the <a href="Skills.php?Name=Craft">Craft (poison)</a> skill.</p>
 
-<table class="last-row"><th>Name</th><th class="center"><a href="Skills.php?Name=Craft">Craft (poison)</a> Difficulty</th><th>Type</th><th class="center">Save Difficulty</th><th class="center">Initial Damage</th><th class="center">Secondary Damage</th><th>Initial Onset</th><th>Secondary Onset</th><th>Cost</th>
-	<tr class="odd-row"><td>Amanita</td><td class="center">9</td><td>Ingested</td><td class="center">11</td><td class="center">3 Con</td><td class="center">3 Con</td><td>6 hours</td><td>24 hours</td><td class="center">4</td></tr>
-	<tr><td>Arsenic</td><td class="center">11</td><td>Ingested</td><td class="center">13</td><td class="center">1 Str</td><td class="center">2 Con</td><td>2 hours</td><td>1 minute</td><td class="center">6</td></tr>
-	<tr class="odd-row"><td>Belladonna</td><td class="center">11</td><td>Ingested</td><td class="center">13</td><td class="center">2 Con</td><td class="center">4 Con</td><td>10 minutes</td><td>1 minute</td><td class="center">8</td></tr>
-	<tr><td>Black Widow</td><td class="center">12</td><td>Injury</td><td class="center">10</td><td class="center">1 Dex</td><td class="center">1 Dex</td><td>5 minutes</td><td>4 hours</td><td class="center">3</td></tr>
-	<tr class="odd-row"><td>Botulin</td><td class="center">14</td><td>Ingested</td><td class="center">16</td><td class="center">2 Con</td><td class="center">2 Con</td><td>3 hours</td><td>3 days</td><td class="center">4</td></tr>
-	<tr><td>Cobra Venom</td><td class="center">16</td><td>Injury</td><td class="center">14</td><td class="center">2 Str</td><td class="center">2 Con</td><td>10 minutes</td><td>1 minute</td><td class="center">3</td></tr>
-	<tr class="odd-row"><td>Curare</td><td class="center">19</td><td>Injury</td><td class="center">17</td><td class="center">4 Dex</td><td class="center">4 Dex</td><td>Instantaneous</td><td>10 minutes</td><td class="center">15</td></tr>
-	<tr><td>Cyanide</td><td class="center">22</td><td>Ingested</td><td class="center">20</td><td class="center">3 Con</td><td class="center">4 Con</td><td>1 hour</td><td>10 minutes</td><td class="center">16</td></tr>
-	<tr class="odd-row"><td>Cyanide</td><td class="center">27</td><td>Injury</td><td class="center">21</td><td class="center">4 Con</td><td class="center">2 Con</td><td>5 rounds</td><td>10 minutes</td><td class="center">22</td></tr>
-	<tr><td>Digitalis</td><td class="center">16</td><td>Ingested</td><td class="center">18</td><td class="center">2 Con</td><td class="center">2 Con</td><td>30 minutes</td><td>1 minute</td><td class="center">6</td></tr>
-	<tr class="odd-row"><td>Dumb Cane</td><td class="center">10</td><td>Ingested</td><td class="center">12</td><td class="center">1 Con</td><td class="center">2 Con</td><td>30 minutes</td><td>1 minute</td><td class="center">4</td></tr>
-	<tr><td>Fugu Toxin</td><td class="center">22</td><td>Ingested</td><td class="center">24</td><td class="center">3 Con</td><td class="center">3 Con</td><td>2 hours</td><td>24 hours</td><td class="center">25</td></tr>
-	<tr class="odd-row"><td>Fugu Toxin</td><td class="center">21</td><td>Injury</td><td class="center">19</td><td class="center">2 Str</td><td class="center">3 Str</td><td>Instantaneous</td><td>1 minute</td><td class="center">8</td></tr>
-	<tr><td>Hemlock</td><td class="center">9</td><td>Ingested</td><td class="center">11</td><td class="center">3 Con</td><td class="center">1 Con</td><td>1 hour</td><td>1 minute</td><td class="center">3</td></tr>
-	<tr class="odd-row"><td>Poison dart frog</td><td class="center">22</td><td>Injury</td><td class="center">20</td><td class="center">3 Dex</td><td class="center">3 Dex</td><td>5 rounds</td><td>1 minute</td><td class="center">25</td></tr>
-	<tr><td>Ricin</td><td class="center">20</td><td>Ingested</td><td class="center">22</td><td class="center">3 Str</td><td class="center">4 Con</td><td>1 day</td><td>3 days</td><td class="center">8</td></tr>
-	<tr class="odd-row"><td>Salamander toxin</td><td class="center">12</td><td>Contact</td><td class="center">10</td><td class="center">2 Str</td><td class="center">2 Str</td><td>30 minutes</td><td>1 minute</td><td class="center">2</td></tr>
-	<tr><td>Shellfish Toxin</td><td class="center">24</td><td>Injury</td><td class="center">22</td><td class="center">1 Str, 3 Con</td><td class="center">2 Str</td><td>Instantaneous</td><td>1 minute</td><td class="center">12</td></tr>
-	<tr class="odd-row"><td>Shellfish Toxin</td><td class="center">16</td><td>Ingested</td><td class="center">18</td><td class="center">1 Str, 2 Con</td><td class="center">1 Str</td><td>30 minutes</td><td>1 minute</td><td class="center">8</td></tr>
-	<tr><td>Stone fish toxin</td><td class="center">17</td><td>Injury</td><td class="center">15</td><td class="center">2 Con</td><td class="center">1 Con</td><td>Instantaneous</td><td>3 hours</td><td class="center">6</td></tr>
-	<tr class="odd-row"><td>Tarantula</td><td class="center">12</td><td>Injury</td><td class="center">10</td><td class="center">1 Dex</td><td class="center">1 Dex</td><td>2 hours</td><td>3 days</td><td class="center">3</td></tr>
-	<tr><td>Wolfsbane</td><td class="center">11</td><td>Ingested</td><td class="center">13</td><td class="center">1 Con</td><td class="center">4 Con</td><td>30 minutes</td><td>1 minute</td><td class="center">5</td></tr>
+<table class="last-row" style="width:100%"><th>Complexity</th><th class="center"><a href="Skills.php?Name=Craft">Craft (poison)</a> Difficulty</th><th class="center">Save Difficulty</th><th class="center">Damage</th><th class="center">Cost</th>
+	<tr class="odd-row"><td>Simple</td><td class="center">10</td><td class="center">11</td><td class="center">1</td><td class="center">5</td></tr>
+	<tr><td>Moderate</td><td class="center">15</td><td class="center">13</td><td class="center">2</td><td class="center">10</td></tr>
+	<tr class="odd-row"><td>Complex</td><td class="center">20</td><td class="center">15</td><td class="center">3</td><td class="center">15</td></tr>
+	<tr><td>Advanced</td><td class="center">30</td><td class="center">18</td><td class="center">4</td><td class="center">20</td></tr>
+	
 </table>
+
+<h3>Poison Delivery Types</h3>
+<p>Poisons can be delivered to the target in one of four ways: <em>ingested</em>, <em>inhaled</em>, <em>injury</em> or <em>contact</em>.</p>
+
+<p>An <em>ingested</em> poison must be introduced to the target's food or drink. Poisons have strong flavours and odours, so a target will ordinarily notice the poison's presence (<a href="Skils.php?Name=Notice">Notice</a> DC 5). Creating a poison that is difficult to detect increases the Craft (poison) DC and the cost by 3 (and requires a Notice DC 15 check to detect).</p>
+
+<p>An <em>inhaled</em> poison must be added to a source of flame, or otherwise pumped into a space (via a blowtube, perhaps) in order to affect its target. Creating an inhaled poison adds 3 to the Craft (poison) DC and the cost.</p>
+
+<p>An <em>injury</em> poison is applied to a weapon which, when it strikes a target who then fails their Toughness save, delivers a dose of poison to the target. See below for applying poison to weapons. Creating an injury poison adds 3 to the Craft (poison) DC and the cost.</p>
+
+<p>A <em>contact</em> poison is applied to a weapon which, when it strikes a target, regardless of the result of their Toughness save, delivers a dose of poison to the target. See below for applying poison to weapons. Creating an contact poison adds 5 to the Craft (poison) DC and the cost.</p>
+
+<h3>Ability Affected</h3>
+<p>Ordinary poisons affect either Strength or Dexterity. Creating a poison that affects Constitution increases the Craft (poison) DC and cost by 5.</p>
+
+<h3>Speeding Up Onset</h3>
+<p>Creating a poison that takes effect immediately increases the Craft (poison) DC and the cost by 3. Such a poison deals the listed damage to the target immediately, and then again at the end of the current scene.</p>
 
 <h2>Using Poisons</h2>
 <p>Anytime a character fails a <a href="Skills.php?Name=Craft">Craft (poison)</a> check by 10 or more, they have inadverdently poisoned themselves with a full dose of whatever poison they are working with.</p>
