@@ -65,10 +65,10 @@
 
 <h3>Damage Carry-Over</h3>
 <h4><a href="PlayingConditions.php?Name=Dying">Dying</a></h4>
-<p>A character who suffers a <a href="PlayingConditions.php?Name=Dying">Dying</a> condition in a scene takes a <a href="PlayingConditions.php?Name=Wounded">Wounded</a> condition in the next scene.</p>
+<p>A character who suffers a <a href="PlayingConditions.php?Name=Dying">Dying</a> condition in a scene must start the next scene with at least one <a href="PlayingConditions.php?Name=Wounded">Wounded</a> condition.</p>
 
 <h4><a href="PlayingConditions.php?Name=Disabled">Disabled</a></h4>
-<p>A character who suffers a <a href="PlayingConditions.php?Name=Disabled">Disabled</a> condition in a scene takes a <a href="PlayingConditions.php?Name=Hurt">Hurt</a> condition in the next scene.</p>
+<p>A character who suffers a <a href="PlayingConditions.php?Name=Disabled">Disabled</a> condition in a scene must start the next scene with at least one <a href="PlayingConditions.php?Name=Hurt">Hurt</a> condition.</p>
 
 <h3>Fatigue Carry-Over</h3>
 <h4><a href="PlayingConditions.php?Name=Exhausted">Exhausted</a></h4>

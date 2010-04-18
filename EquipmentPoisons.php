@@ -30,7 +30,7 @@
 <h3>Poison Delivery Types</h3>
 <p>Poisons can be delivered to the target in one of four ways: <em>ingested</em>, <em>inhaled</em>, <em>injury</em> or <em>contact</em>.</p>
 
-<p>An <em>ingested</em> poison must be introduced to the target's food or drink. Poisons have strong flavours and odours, so a target will ordinarily notice the poison's presence (<a href="Skils.php?Name=Notice">Notice</a> DC 5). Creating a poison that is difficult to detect increases the Craft (poison) DC and the cost by 3 (and requires a Notice DC 15 check to detect).</p>
+<p>An <em>ingested</em> poison must be introduced to the target's food or drink. Poisons have strong flavours and odours, so a target will ordinarily notice the poison's presence (<a href="Skills.php?Name=Notice">Notice</a> DC 5). Creating a poison that is difficult to detect increases the Craft (poison) DC and the cost by 3 (and requires a Notice DC 15 check to detect).</p>
 
 <p>An <em>inhaled</em> poison must be added to a source of flame, or otherwise pumped into a space (via a blowtube, perhaps) in order to affect its target. Creating an inhaled poison adds 3 to the Craft (poison) DC and the cost.</p>
 

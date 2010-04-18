@@ -1,5 +1,5 @@
 Name|Condition|
-Ability Damaged|The character has temporarily lost 1 or more ability score points. Lost ability score points return at a rate of 1 per day.|
+Ability Damaged|The character has temporarily lost 1 or more ability score points. Lost ability score points are recovered just like <a href="CombatDamage.php">damage</a>.|
 Ability Drained|The character has permanently lost 1 or more ability score points. Points lost to ability drain do not recover.|
 Blinded|The character cannot see at all, and thus everything has total visual concealment from him. He has a 50% chance to miss in combat, cannot use <a href="Combat.php#Dodge">Dodge</a> or <a href="Combat.php#Parry">Parry</a>, and suffers an additional -2 modifier to <a href="Combat.php#BaseDefense">Defense</a>. He moves at half speed and suffers a -4 penalty on most <a href="Skills.php?Ability=Str">Strength</a> and <a href="Skills.php?Ability=Dex">Dexterity-based skill checks</a>. He cannot make <a href="Skills.php?Name=Notice">Notice (spot) skill checks</a> or perform any other activity (such as reading) requiring vision.|
 Bruised|The character has suffered some minor damage, but takes no ill effects.|
