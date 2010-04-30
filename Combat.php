@@ -64,7 +64,7 @@
 
 <p class="notation">Maneuver Difficulty = 10 + Maneuver Bonus</p>
 
-<p>Only creatures with an Intelligence of -3 or greater can attempt maneuvers at all.</p>
+<p>Only creatures with an Intelligence of -3 or greater can attempt maneuvers at all. Creatures with an Intelligence of -4 or less have a Maneuver Bonus, to use in determining their Maneuver Difficulty (calculated as usual), but they cannot attempt special maneuvers themselves.</p>
 
 <p>The following actions use the maneuver bonus:
 
@@ -80,7 +80,7 @@
 <p>Larger creatures can more easily dominate smaller creatures. A special <a href="CharGenSize.php#SizeTable">size-based Maneuver Modifier</a> is used to reflect this.</p>
 
 <h5>Miscellaneous Modifiers</h5>
-<p>The circumstances of your maneuver may involve a modifier to your maneuver bonus. Attempting a <a href="CombatActions.php?Name=Grapple">grapple</a> without both hands free, for example, imposes a -4 penalty on your maneuver roll. See <a href="CombatModifiers.php">Combat Modifiers</a> for a detailed list of modifiers. In addition, any <a href="Feats.php">feats</a> that modify your <a href="#AttackBonus">attack bonus</a> with the weapon you are using to perform the maneuver (if any) also affect your maneuver bonus.</p>
+<p>The circumstances of your maneuver may involve a modifier to your maneuver bonus. Attempting a <a href="CombatActions.php?Name=Grapple">grapple</a> without both hands free, for example, imposes a -4 penalty on your maneuver roll. See <a href="CombatModifiers.php">Combat Modifiers</a> for a detailed list of modifiers. In addition, any <a href="Feats.php">feats</a> that modify your <a href="#AttackBonus">attack bonus</a> with the weapon you are using to perform the maneuver (if any) also affect your maneuver bonus (both for attempting maneuvers and resisting them).</p>
 
 <h5><a name="Damage">Automatic Hits and Misses</a></h5>
 <p>A natural 1 (the d20 comes up 1) on the maneuver roll is always a failure, regardless of the target's Maneuver Difficulty. A natural 20 (the d20 comes up 20) is likewise always a success.</p>
