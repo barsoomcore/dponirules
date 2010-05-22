@@ -12,6 +12,7 @@
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel=stylesheet media="screen" href="/dponiwiki/media/dponiwikiStyle.css" type="text/css">
+<link rel=stylesheet media="only screen and (max-device-width: 480px)" href="/dponiwiki/media/dponiwikiiPhoneStyle.css" type="text/css">
 <link rel="icon" type="image/png" href="/dponiwiki/media/images/favicon.png">
 </head>
 <body>
