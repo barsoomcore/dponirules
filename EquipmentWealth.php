@@ -69,7 +69,7 @@
 <p>Any time you purchase an object or service with a purchase difficulty higher than your current Wealth bonus, or one with a purchase difficulty of 15 or higher, your Wealth bonus goes down. How much the Wealth bonus is reduced depends on how expensive the object is. Your Wealth score is only reduced if the Wealth check succeeds; if the Wealth check fails, your Wealth score is unaffected.</p>
 
 <table class="last-row" cellpadding=0 cellspacing=0 width=75%>
-    <th>Item Cost</th><th>Wealth Bonus Decrease </th>
+    <th><a name="RegainingWealth">Item Cost</a></th><th>Wealth Bonus Decrease </th>
     <tr class="odd-row"><td>15 or higher</td><td>1 point</td></tr>
     <tr><td>1-10 points higher than current Wealth bonus</td><td>1 point</td></tr>
     <tr class="odd-row"><td>11-15 points higher than current Wealth bonus</td><td>2 points</td></tr>
@@ -78,7 +78,7 @@
 
 <p>Along with this loss, any time you buy an object or service with a purchase difficulty of 15 or higher, reduce your current Wealth bonus by an additional 1 point. </p>
 
-<h2>Regaining Wealth</h2>
+<h2>Regaining Wealth: the Professional Skill</h2>
 <p>A character's Wealth bonus recovers as the character advances.</p>
 <p>Characters use their skills to earn a living. A skill used to earn Wealth is called a professional skill. Discuss with the Narrator what skill would be appropriate for your hero's profession, which can change, at the Narrator's discretion, as your character moves from one profession to another.</p>
 <p>Characters use professional skills to improve their Wealth. You make a professional skill check to improve your Wealth score every time you attain a new level. The Difficulty is your current Wealth score. If you succeed, your Wealth score increases by +1. For every 5 points the check result exceeds the Difficulty, your Wealth score increases by an additional +1. You can't take 10 or 20 when making a professional skill check to improve your Wealth score. </p>
