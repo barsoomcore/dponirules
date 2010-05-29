@@ -7,7 +7,7 @@
 
 <h1>POISONS</h1>
 
-<p>Both natives and ninjas make extensive use of poisons in their weapons and attacks. Very few poisons are of the "instant-death" variety; those that exist are very expensive and difficult to acquire. Any character with the <a href="Skills.php?Name=Craft">Craft (poison)</a> skill can attempt to make at least one of the following poisons if they succeed at the necessary <a href="EquipmentWealth.php">Wealth</a> and <a href="Skills.php?Name=Craft">Craft (poison)</a> checks.</p>
+<p>Both natives and ninjas make extensive use of poisons in their weapons and attacks. Very few poisons are of the "instant-death" variety; those that exist are very expensive and difficult to acquire. Any character with the <a href="Skills.php?Name=Craft">Craft (poison)</a> skill can attempt to make the following poisons if they succeed at the necessary <a href="EquipmentWealth.php">Wealth</a> and <a href="Skills.php?Name=Craft">Craft (poison)</a> checks.</p>
 
 <h2>Effects of Poison</h2>
 
