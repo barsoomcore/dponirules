@@ -40,7 +40,7 @@
 	<li>Favoured <a href="Feats.php">Feats</a>: <a href="Feats.php?Name=Favored%20Opponent">Favored Opponent</a> (animals, ninja, pirate or imperial), <a href="Feats.php?Name=Tough">Tough</a></li>
 </ul>
 
-<h2><a href="/dponiwiki/page/imperials/">Imperials</a></h2>
+<h2><a href="/dponiwiki/page/empire/">Imperials</a></h2>
 <ul>
 	<li>Bonus <a href="Feats.php">Feats</a>: <a href="Feats.php?Name=Tireless">Tireless</a>, <a href="Feats.php?Name=Great%20Fortitude">Great Fortitude</a></li>
 	<li>Bonus <a href="Skills.php">Skills</a>: <a href="Skills.php?Name=Concentration">Concentration</a>, <a href="Skills.php?Name=Intimidate">Intimidate</a></li>
