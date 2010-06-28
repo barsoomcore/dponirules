@@ -8,7 +8,7 @@
 <h1>SAVING THROWS</h1>
 
 <p>There are four types of saving throws in DPoNI: Fortitude, Reflex, Will and Toughness. Saving throws enable characters to avoid hazards such as injury, poison, falling, or having their senses overwhelmed by magic. A successful saving throw is one that meets or exceeds the hazard's Difficulty.</p>
-<p>You can't ever take 5, 10 or 20 on a saving throw. You can't apply <a href="Basics.php#Challenges">Challenges</a> to a saving throw. Saving throws cannot benefit from another's aid. A natural 1 is not an automatic failure on a saving throw, nor is a natural 20 an automatic success. Some saving throws (Fortitude, Reflex and Will, to be precise) are, however, subject to <a href="BasicsStunts.php">Stunts</a>.</p>
+<p>You can't ever take 5, 10 or 20 on a saving throw. You can't apply <a href="BasicsChecks.php#Challenges">Challenges</a> to a saving throw. Saving throws cannot benefit from another's aid. A natural 1 is not an automatic failure on a saving throw, nor is a natural 20 an automatic success. Some saving throws (Fortitude, Reflex and Will, to be precise) are, however, subject to <a href="BasicsStunts.php">Stunts</a>.</p>
 
 <h2>Types of Saving Throws</h2>
 <p>The four different kinds of saving throws are: </p>

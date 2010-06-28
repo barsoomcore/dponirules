@@ -81,7 +81,7 @@
 <p>If the <a href="Skills.php?Name=Concentration">Concentration</a> check fails, the power use is wasted and the caster must make an immediate <a href="#Resilience">Resilience</a> roll without the bonus supplied by the extended casting time.</p>
 
 <h3>Reduced Casting Time</h3>
-<p>Sometimes you're in a hurry. Just like skill checks, powers can take the <a href="Basics.php#Challenges">Fast Task challenge</a> in order to reduce the time spent. Such powers are used as though you had 5 less ranks than you do, thus affecting both your power check (-5) and your power save difficulty (-2). Any other effects of the power that depend on ranks all operate at 5 less than your actual ranks.</p>
+<p>Sometimes you're in a hurry. Just like skill checks, powers can take the <a href="BasicsChecks.php#Challenges">Fast Task challenge</a> in order to reduce the time spent. Such powers are used as though you had 5 less ranks than you do, thus affecting both your power check (-5) and your power save difficulty (-2). Any other effects of the power that depend on ranks all operate at 5 less than your actual ranks.</p>
 
 <h2>Multiple Targets</h2>
 <p>Most powers only affect a single target, but it is possible to expand your power use to affect multiple targets simultaneously. This requires time, skill and effort.</p>

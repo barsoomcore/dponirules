@@ -6,7 +6,7 @@
 
 <h1>ATTACK ROLLS</h1>
 <p>Attack rolls are rolls made to determine if an attempted attack succeeded or failed.  A successful attack roll is one that meets or exceeds your target's <a href="Combat.php#BaseDefense">Defense</a> (or <a href="Combat.php#Dodge">Dodge</a> or <a href="Combat.php#Parry">Parry</a>, if your target can use those). Your normal <a href="Combat.php#AttackBonus"> Attack Bonus</a> is equal to your Combat Bonus plus your Dexterity.</p>
-<p>You can't ever take 5, 10 or 20 on an attack roll. You can't apply <a href="Basics.php#Challenges">Challenges</a> to an attack roll. Aiding someone else's attack roll is a little different than aiding a check, and uses the <a href="CombatActions.php?Name=Aid">Aid action</a>. Attack rolls are subject to <a href="BasicsStunts.php">Stunts</a>.</p>
+<p>You can't ever take 5, 10 or 20 on an attack roll. You can't apply <a href="BasicsChecks.php#Challenges">Challenges</a> to an attack roll. Aiding someone else's attack roll is a little different than aiding a check, and uses the <a href="CombatActions.php?Name=Aid">Aid action</a>. Attack rolls are subject to <a href="BasicsStunts.php">Stunts</a>.</p>
 
 <p>For a more detailed explanation of combat, see <a href="Combat.php">the Combat section of these rules</a>.</p>
 

@@ -27,7 +27,7 @@
 <h2>Notes</h2>
 <p><b>Restriction:</b> Each time a skill is used for a stunt bonus in an encounter, that skill's stunt bonus is reduced by one the next time it is used.</p>
 
-<p><b>Special:</b> You can use <a href="Basics.php#Challenges">the Fast Task Challenge</a> to reduce the move action to a Free Action. Applying the normal -5 challenge penalty on the skill to the Stunt Bonus calculation means the stunt bonus is one less.</p>
+<p><b>Special:</b> You can use <a href="BasicsChecks.php#Challenges">the Fast Task Challenge</a> to reduce the move action to a Free Action. Applying the normal -5 challenge penalty on the skill to the Stunt Bonus calculation means the stunt bonus is one less.</p>
 
 <p>Stunts using movement-based skills (<a href="Skills.php?Name=Acrobatics">Acrobatics</a> in particular), occur as part of that movement.</p>
 
