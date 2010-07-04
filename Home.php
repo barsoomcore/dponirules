@@ -32,6 +32,7 @@
 <ul>
 	<li><strong><a href="Home.php">DPoNI Home</a></strong></li>
 	<li><a href="Basics.php">The Rules</a></li>
+	<li><a href="/dponiwiki/page/running-dino-pirates">The Tools</a></li>
 	<li><a href="/dponiwiki/">The Setting</a></li>
 </ul>
 </div>

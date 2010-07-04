@@ -11,8 +11,8 @@ include ("Scripts/ListScript.php");
 // displayed for each item
 
 $mainlist = array ( 
-    "url" => array ("Home.php", "Basics.php", "CharGen.php", "Roles.php", "Skills.php", "Feats.php", "Powers.php", "Playing.php", "Combat.php", "Equipment.php", "Ships.php", "Creatures.php", "License.php", "dponiwiki"),  
-    "name" => array ("DPoNI Home", "The Rules", "Character Creation", "Roles", "Skills", "Feats", "Powers", "Playing the Game", "Combat", "Equipment", "Ships", "Creatures", "License", "The Setting")
+    "url" => array ("Home.php", "Basics.php", "CharGen.php", "Roles.php", "Skills.php", "Feats.php", "Powers.php", "Playing.php", "Combat.php", "Equipment.php", "Ships.php", "Creatures.php", "License.php", "dponiwiki/page/running-dino-pirates", "dponiwiki"),  
+    "name" => array ("DPoNI Home", "The Rules", "Character Creation", "Roles", "Skills", "Feats", "Powers", "Playing the Game", "Combat", "Equipment", "Ships", "Creatures", "License", "The Tools", "The Setting")
 );
 
 // now we define a whole slew of similar arrays, one for each submenu that can
