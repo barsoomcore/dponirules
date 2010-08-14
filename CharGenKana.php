@@ -30,7 +30,7 @@
 
 <h2>Powers</h2>
 
-<p>Of course, if her skills fail her, she's got her supernatural powers. With the philosophy of <a href="PowersPhilosophies.php">Shamanism</a> she gets a bonus rank on both <a href="Powers.php?Name=Beast%20Link">Beast Link</a> and <a href="Powers.php?Name=Dominate">Dominate</a>, and a T-Rex only gets a +8 Will save, so with a Power save Difficulty of 17, that's not looking quite so crazy. Because she doesn't have <a href="Powers.php?Name=Mind%20Touch">Mind Touch</a>, only <a href="Powers.php?Name=Beast%20Link">Beast Link</a>, her <a href="Powers.php?Name=Dominate">Dominate</a> power can only be used against animals, which is exactly what we want. That Wisdom comes in handy here again, helping Kana with those pesky Resilience checks.</p>
+<p>Of course, if her skills fail her, she's got her supernatural powers. With the philosophy of <a href="PowersPhilosophies.php">Shamanism</a> she gets a bonus rank on both <a href="Powers.php?Name=Beast%20Link">Beast Link</a> and <a href="Powers.php?Name=Dominate">Dominate</a>, and a T-Rex only gets a +8 Will save, so with a Power save Difficulty of 17, that's not looking quite so crazy. Because she doesn't have <a href="Powers.php?Name=Mind%20Link">Mind Link</a>, only <a href="Powers.php?Name=Beast%20Link">Beast Link</a>, her <a href="Powers.php?Name=Dominate">Dominate</a> power can only be used against animals, which is exactly what we want. That Wisdom comes in handy here again, helping Kana with those pesky Resilience checks.</p>
 
 <h2>Feats</h2>
 

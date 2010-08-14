@@ -42,7 +42,7 @@
 
 <h2>Customizing</h2>
 
-<p>Swapping out Ming-Wa's powers can make for a completely different sort of character -- <a href="Powers.php?Name=Mind%20Touch">Mind Touch</a> and <a href="Powers.php?Name=Dominate">Dominate</a> creates a commanding sort of figure, or go with <a href="Powers.php?Name=Fire%20Shaping">Fire Shaping</a> instead of <a href="Powers.php?Name=Wind%20Shaping">Wind Shaping</a> for a more violent approach to problem-solving.</p>
+<p>Swapping out Ming-Wa's powers can make for a completely different sort of character -- <a href="Powers.php?Name=Mind%20Link">Mind Link</a> and <a href="Powers.php?Name=Dominate">Dominate</a> creates a commanding sort of figure, or go with <a href="Powers.php?Name=Fire%20Shaping">Fire Shaping</a> instead of <a href="Powers.php?Name=Wind%20Shaping">Wind Shaping</a> for a more violent approach to problem-solving.</p>
 
 <h2>The Future</h2>
 

@@ -53,7 +53,7 @@
 <p>Some powers have specific limitations on the range at which they can be used and these limits are noted in the power description. Other powers are assumed to operate at normal line of sight.</p>
 
 <a name="Familiarity"><h3>Familiarity</h3></a>
-<p>Some powers are easier to use on more familiar subjects. For any power that mentions a familiarity modifier, determine the relationship between yourself and the target on the <b>Familiarity</b> table below and apply the appropriate modifier to the Difficulty of the power check. For example, using the <a href="Powers.php?Name=Mind%20Touch">Mind Touch</a> power on a "Somewhat Familiar" target increases the difficulty of the power check to establish contact by +15.</p>
+<p>Some powers are easier to use on more familiar subjects. For any power that mentions a familiarity modifier, determine the relationship between yourself and the target on the <b>Familiarity</b> table below and apply the appropriate modifier to the Difficulty of the power check. For example, using the <a href="Powers.php?Name=Mind%20Link">Mind Link</a> power on a "Somewhat Familiar" target increases the difficulty of the power check to establish contact by +15.</p>
 
 <table class="last-row">
 	<th width="15%">Familiarity</th><th width="10%" class="center">Difficulty</th><th>Definition</th>
