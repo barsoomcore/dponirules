@@ -81,12 +81,6 @@ function GetListing($sourcefile, $field, $term) {
     // We now go through all the other entries looking for elements of that
     // number that match $term
     
-    // but first we define the length of $term
-    // we'll use this later so that we can match terms that include more info
-    // than we have for comparision (so that "foo" will match "foobar")
-        
-    $length = strlen($term);
-    
     foreach($eachline as $listing) 
     {
         // if the specified $term is All then just throw 'em all into the result
@@ -100,10 +94,9 @@ function GetListing($sourcefile, $field, $term) {
         }
         
         // otherwise, we only grab those ones where the array item whose key matches
-        // $key and whose value matches $term for as long as $term is -- remember that
-        // we want to match "foobar" using "foo"
+        // $key and whose value matches $term
         
-        elseif (strncmp($term, $listing[$key], $length) == 0)
+        elseif ($term == $listing[$key])
         {
             $selectedData[] = $listing;
         }

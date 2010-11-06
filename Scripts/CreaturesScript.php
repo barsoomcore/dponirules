@@ -129,4 +129,159 @@ function CreaturesTable ($field, $term)
 	print $contentstring;
 }
 
+function CreaturesJSON ($field, $term)
+{
+	$dataFromFile = GetListing("Data/CreaturesList.data", $field, $term);
+	
+		
+	foreach($dataFromFile as $individualListing)
+	{
+		list($name, $Level, $Type, $SubType, $Size, $Spd, $Abilities, $Skills, $Feats, $Traits, $Combat, $ST, $Desc, $Details) = $individualListing;
+		
+		$Label = $Size." ".$Type." ".$SubType;
+		$creatureJSON = "{ \"role_name\": \"".$Label."\", ";
+		$creatureJSON .= "\"npc_name\": \"".$name."\", ";
+		$creatureJSON .= "\"description\": \"".addslashes($Desc)."\", ";
+		$creatureJSON .= "\"details\": \"<p>".addslashes($Details)."\", ";
+		$creatureJSON .= "\"fields\": { ";
+		$creatureJSON .= "\"level\": ".rtrim($Level, 'rndsth').", ";
+		
+		$CombatArray = (explode(";", $Combat));
+		if ($CombatArray[0] == '<a href="CreaturesSubTypes.php?Name=Swarm">Swarm!') { 
+			$swarm_link = addslashes("<a href=\"CreaturesSubTypes.php?Name=Swarm\">Swarm");
+			$creatureJSON .= "\"primary_attack\": \"".$swarm_link."\", "; }
+		else {
+			$creatureJSON .= "\"primary_attack\": ".substr($CombatArray[0], 0, strpos($CombatArray[0], "!")).", ";
+		}
+				
+		$SecondaryAttack = (explode("and", $CombatArray[0]));
+		if ($SecondaryAttack[1]) { 
+			$sbstart = strpos($SecondaryAttack[1], "+");
+			$sbend = strpos($SecondaryAttack[1], "</b>");
+			$SecondaryAttackBonus = substr($SecondaryAttack[1], $sbstart, $sbend - $sbstart);
+			$creatureJSON .= "\"secondary_attack\": ".$SecondaryAttackBonus.", "; 
+		}
+				
+		$Damage = (explode("!", $CombatArray[1]));
+		$creatureJSON .= "\"full_damage\": ".$Damage[0].", ";
+		
+		$SecondaryDamage = (explode("and", $Damage[1]));
+		if ($SecondaryDamage[1]) {
+			$sdstart = strpos($SecondaryDamage[1], "+");
+			$sdend = strpos($SecondaryDamage[1], "</b>");
+			$SecondaryDamageBonus = substr($SecondaryDamage[1], $sdstart, $sdend - $sdstart);
+			$creatureJSON .= "\"secondary_damage\": ".$SecondaryDamageBonus.", ";
+		}
+				
+		$DefenseArray = (explode("!", $CombatArray[2]));
+		$DodgeParry = (explode("/", $DefenseArray[0]));
+		$creatureJSON .= "\"dodge\": ".$DodgeParry[0].", ";
+		if ($DodgeParry[1] == "--"){ $DodgeParry[1] = "\"--\""; }
+		$creatureJSON .= "\"parry\": ".$DodgeParry[1].", ";
+
+		$creatureJSON .= "\"skills\": \"";		
+		$SkillsArray = (explode(";", $Skills));
+		foreach($SkillsArray as $Skill){
+			$SkillDetail = (explode("!", $Skill));
+			$SkillTag = "<a href=\"Skills.php?Name=".urlencode($SkillDetail[0])."\">$SkillDetail[0]</a>";
+			$creatureJSON .= addslashes($SkillTag)." ";
+			$creatureJSON .= $SkillDetail[1].", ";
+		}
+		$creatureJSON = rtrim($creatureJSON, ", ");
+		$creatureJSON .= "\", ";
+		
+		$creatureJSON .= "\"abilities\": \"";
+		if ($Feats) {
+			$FeatsArray = (explode(";", $Feats));
+			foreach($FeatsArray as $Feat){
+				$FeatLinkArray = (explode("!", $Feat));
+				if (substr($FeatLinkArray[0], 0, 6) == "Power:") {
+					$FeatLinkArray[0] = substr($FeatLinkArray[0], 6, strlen($FeatLinkArray[0]));
+					$FeatLink = "<a href=\"Powers.php?Name=".urlencode($FeatLinkArray[0])."\">$FeatLinkArray[0]</a> "; 
+				} else {
+					$FeatLink = "<a href=\"Feats.php?Name=".urlencode($FeatLinkArray[0])."\">$FeatLinkArray[0]</a>";
+				}
+				$creatureJSON .= addslashes($FeatLink);
+				$creatureJSON .= addslashes($FeatLinkArray[1])." ";
+			}
+			$creatureJSON = rtrim($creatureJSON, " ");
+			if ($Traits) { $creatureJSON .= ", "; }
+		}
+		if ($Traits) { $creatureJSON .= addslashes($Traits); }
+		
+		$creatureJSON .= "\", ";
+				
+		$rawSavesArray = (explode(";", $ST));
+		$SavesArray = array();
+		foreach($rawSavesArray as $Save){
+			if ($Save == "--") { $SavesArray[] = "\"--\""; }
+			else { $SavesArray[] = substr($Save, 0, strpos($Save, "!"));}
+		}
+		$creatureJSON .= "\"toughness\": ".$SavesArray[0].", ";
+		$creatureJSON .= "\"fortitude\": ".$SavesArray[1].", ";
+		$creatureJSON .= "\"reflex\": ".$SavesArray[2].", ";
+		$creatureJSON .= "\"will\": ".$SavesArray[3].", ";
+				
+		$AbilitiesArray = (explode(",", $Abilities));
+		$AbilitiesValues = array();
+		foreach($AbilitiesArray as $Ability){
+			$rawAbility = substr($Ability, -2, strlen($Ability));
+			if ( $rawAbility == "--" ) { $rawAbility = "\"--\""; }
+			$AbilitiesValues[] = $rawAbility;
+		}
+		$creatureJSON .= "\"strength\": ".$AbilitiesValues[0].", ";
+		$creatureJSON .= "\"dexterity\": ".$AbilitiesValues[1].", ";
+		$creatureJSON .= "\"constitution\": ".$AbilitiesValues[2].", ";
+		$creatureJSON .= "\"intelligence\": ".$AbilitiesValues[3].", ";
+		$creatureJSON .= "\"wisdom\": ".$AbilitiesValues[4].", ";
+		$creatureJSON .= "\"charisma\": ".$AbilitiesValues[5].", ";
+		
+		$mb = substr($CombatArray[0], 0, strpos($CombatArray[0], "!"));
+		$dex = substr($AbilitiesArray[1], -2);
+		$strength = substr($AbilitiesArray[0], -2);
+		$mb = ($mb - $dex) + $strength;
+		
+		switch ($Size) {
+			case "Fine": 
+				$mb = $mb - 16;
+				break;
+			case "Diminutive": 
+				$mb = $mb -8;
+				break;
+			case "Tiny": 
+				$mb = $mb -4;
+				break;
+			case "Small": 
+				$mb = $mb -2;
+				break;
+			case "Large": 
+				$mb = $mb +2;
+				break;
+			case "Huge": 
+				$mb = $mb + 4;
+				break;
+			case "Gargantuan": 
+				$mb = $mb +8;
+				break;
+			case "Colossal": 
+				$mb = $mb +16;
+				break;
+			case "Awesome": 
+				$mb = $mb +32;
+				break;
+		}
+		
+		$creatureJSON .= "\"mb\": ".$mb.", ";
+		
+		$BaseDefense = $DodgeParry[0] - $dex;
+		$creatureJSON .= "\"base_defense\": ".$BaseDefense.", ";
+		
+		$creatureJSON .= "\"reputation\": \"--\" ";
+		
+		$creatureJSON .= " }}";
+	}
+	print $creatureJSON;
+	
+}
+
 ?>
