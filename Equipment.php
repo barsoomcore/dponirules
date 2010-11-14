@@ -34,13 +34,11 @@
 <table class="last-row" cellpadding=0 cellspacing=0 width="60%">
 <th>Condition</th><th class="center"><a href="Skills.php?Name=Sleight of Hand">Sleight of Hand</a> Modifier</th>
 <tr><td><i>Size of weapon or object</i></td></tr>
-<tr class="odd-row"><td>Fine</td><td class="center">+12</td></tr>
-<tr><td>Diminutive</td><td class="center">+8</td></tr>
-<tr class="odd-row"><td>Tiny</td><td class="center">+4</td></tr>
-<tr><td>Small</td><td class="center">+0</td></tr>
-<tr class="odd-row"><td>Medium-size</td><td class="center">-4</td></tr>
-<tr><td>Large</td><td class="center">-8</td></tr>
-<tr class="odd-row"><td>Huge or larger</td><td class="center">can't conceal </td></tr>
+<tr class="odd-row"><td>Tiny (a ring or similar)</td><td class="center">+6</td></tr>
+<tr><td>Small (hand-sized)</td><td class="center">+0</td></tr>
+<tr class="odd-row"><td>Bigger than your hand</td><td class="center">-2</td></tr>
+<tr><td>Bigger than your head</td><td class="center">-4</td></tr>
+<tr class="odd-row"><td>Bigger than your torso</td><td class="center">can't conceal </td></tr>
 <tr><td>Clothing is especially loose or bulky</td><td class="center">+2</td></tr>
 <tr class="odd-row"><td>Clothing is specifically modified for concealing object (mastercraft clothing)</td><td class="center">+2</td></tr>
 <tr><td>Weapon is carried in concealed carry holster</td><td class="center">+4</td></tr>

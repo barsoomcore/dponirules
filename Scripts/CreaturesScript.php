@@ -239,37 +239,7 @@ function CreaturesJSON ($field, $term)
 		$dex = substr($AbilitiesArray[1], -2);
 		$strength = substr($AbilitiesArray[0], -2);
 		$mb = ($mb - $dex) + $strength;
-		
-		switch ($Size) {
-			case "Fine": 
-				$mb = $mb - 16;
-				break;
-			case "Diminutive": 
-				$mb = $mb -8;
-				break;
-			case "Tiny": 
-				$mb = $mb -4;
-				break;
-			case "Small": 
-				$mb = $mb -2;
-				break;
-			case "Large": 
-				$mb = $mb +2;
-				break;
-			case "Huge": 
-				$mb = $mb + 4;
-				break;
-			case "Gargantuan": 
-				$mb = $mb +8;
-				break;
-			case "Colossal": 
-				$mb = $mb +16;
-				break;
-			case "Awesome": 
-				$mb = $mb +32;
-				break;
-		}
-		
+				
 		$creatureJSON .= "\"mb\": ".$mb.", ";
 		
 		$BaseDefense = $DodgeParry[0] - $dex;

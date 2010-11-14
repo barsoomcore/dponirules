@@ -12,17 +12,17 @@
 <p>Ninja who wish to acquire these items must provide their clan with sufficient proof of their worth; ordinarily, this done by making the appropriate <a href="EquipmentWealth.php">Wealth</a> check, which in this case serves to simulate the necessary "donations" and support provided to the clan by the character.</p>
 
 <table class="last-row" width="500px">
-	<th>Name</th><th class="center">Size</th><th class="center">Cost</th><th class="center">Weight</th>
-	<tr class="odd-row"><td>Ashiaro (track disguisers)</td><td class="center">Small</td><td class="center">12</td><td class="center">1 lb.</td></tr>
-	<tr><td>Caltrops</td><td class="center">Med</td><td class="center">10</td><td class="center">2 lbs.</td></tr>
-	<tr class="odd-row"><td>Disguise Kit</td><td class="center">Med</td><td class="center">12</td><td class="center">4 lbs.</td></tr>
-	<tr><td>Doka (coal carrier)</td><td class="center">Small</td><td class="center">12</td><td class="center">2 lbs.</td></tr>
-	<tr class="odd-row"><td><a href="EquipmentWeapons.php?Name=Kasayari">Kasayari</a> (fire lance)</td><td class="center">Medium</td><td class="center">15</td><td class="center">8 lbs.</td></tr>
-	<tr><td>Metal Grips</td><td class="center">Small</td><td class="center">14</td><td class="center">1 lb.</td></tr>
-	<tr class="odd-row"><td><a href="EquipmentWeapons.php?Name=Metsubishi">Metsubishi</a></td><td class="center">Medium</td><td class="center">8</td><td class="center">4 lbs.</td></tr>
-	<tr><td>Shikoro (saw)</td><td class="center">Tiny</td><td class="center">16</td><td class="center">1 lb.</td></tr>
-	<tr class="odd-row"><td>Stealth Outfit</td><td class="center">Med</td><td class="center">10</td><td class="center">4 lbs.</td></tr>
-	<tr><td>Tojime (door bar)</td><td class="center">Med</td><td class="center">8</td><td class="center">2 lbs.</td></tr>
+	<th>Name</th><th class="center">Cost</th><th class="center">Weight</th>
+	<tr class="odd-row"><td>Ashiaro (track disguisers)</td><td class="center">12</td><td class="center">1 lb.</td></tr>
+	<tr><td>Caltrops</td><td class="center">10</td><td class="center">2 lbs.</td></tr>
+	<tr class="odd-row"><td>Disguise Kit</td><td class="center">12</td><td class="center">4 lbs.</td></tr>
+	<tr><td>Doka (coal carrier)</td><td class="center">12</td><td class="center">2 lbs.</td></tr>
+	<tr class="odd-row"><td><a href="EquipmentWeapons.php?Name=Kasayari">Kasayari</a> (fire lance)</td><td class="center">15</td><td class="center">8 lbs.</td></tr>
+	<tr><td>Metal Grips</td><td class="center">14</td><td class="center">1 lb.</td></tr>
+	<tr class="odd-row"><td><a href="EquipmentWeapons.php?Name=Metsubishi">Metsubishi</a></td><td class="center">8</td><td class="center">4 lbs.</td></tr>
+	<tr><td>Shikoro (saw)</td><td class="center">16</td><td class="center">1 lb.</td></tr>
+	<tr class="odd-row"><td>Stealth Outfit</td><td class="center">10</td><td class="center">4 lbs.</td></tr>
+	<tr><td>Tojime (door bar)</td><td class="center">8</td><td class="center">2 lbs.</td></tr>
 </table>
 
 <h2>Gear Descriptions</h2>
@@ -45,10 +45,10 @@
 <p>Ninjas use a variety of grenade-like weapons. Details on those weapons are provided below. Only characters with <a href="Feats.php?Name=Ninja%20Weapon%20Training">Ninja Weapon Training</a> can use grenades at all; characters without this feat are unable to throw grenades so that they go off (it's all in the wrist).</p>
 
 <table width="100%">
-	<th>Grenade</th><th>Effect</th><th class="center">Radius</th><th class="center">Reflex Difficulty</th><th class="center">Size</th><th class="center">Cost</th>
-	<tr class="odd-row"><td>Smoke</td><td>visual cover</td><td class="center">10 ft.</td><td class="center">-</td><td class="center">Small</td><td class="center">10</td></tr>
-	<tr><td>Flash-Bang</td><td>blinding/deafening</td><td class="center">20 ft.</td><td class="center">14</td><td class="center">Tiny</td><td class="center">21</td></tr>
-	<tr class="odd-row"><td>Poison Smoke</td><td>nauseating</td><td class="center">10 ft.</td><td class="center">-</td><td class="center">Small</td><td class="center">25</td></tr>
+	<th>Grenade</th><th>Effect</th><th class="center">Radius</th><th class="center">Reflex Difficulty</th><th class="center">Cost</th>
+	<tr class="odd-row"><td>Smoke</td><td>visual cover</td><td class="center">10 ft.</td><td class="center">-</td><td class="center">10</td></tr>
+	<tr><td>Flash-Bang</td><td>blinding/deafening</td><td class="center">20 ft.</td><td class="center">14</td><td class="center">21</td></tr>
+	<tr class="odd-row"><td>Poison Smoke</td><td>nauseating</td><td class="center">10 ft.</td><td class="center">-</td><td class="center">25</td></tr>
 </table>
 
 <h3>Grenade Descriptions</h3>

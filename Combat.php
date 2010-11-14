@@ -34,7 +34,7 @@
 
 <h3>Attack Bonus</h3></a>
 <p>Use your attack bonus whenever you want to strike your opponent and deal damage. To make an attack you roll a d20 and add our attack bonus. If your result meets or exceeds your opponent's <a href="#BaseDefense">Defense</a> (or <a href="#Dodge">Dodge</a> or <a href="#Parry">Parry</a>, if the opponent is using them), you score a hit and may deal damage. A character's attack bonus is:</p>
-<p class="notation">Combat Bonus + Dexterity + Attack Size Modifier + Miscellaneous Modifiers - range penalty</p>
+<p class="notation">Combat Bonus + Dexterity + Miscellaneous Modifiers - range penalty</p>
 
 <a href="#CombatBonus"><h5>Combat Bonus</h5></a>
 <p>Your skill in combat, based on your <a href="Roles.php">role(s) and level</a>, determines your basic ability to successfully strike a target.</p>
@@ -55,11 +55,9 @@
 
 <p>Use your maneuver bonus whenever you want to make a special sort of combat action: <a href="CombatActions.php?Name=Trip">trip</a> or <a href="CombatActions.php?Name=Disarm">disarm</a> your opponent, to <a href="CombatActions.php?Name=Grapple">grapple</a> with him or <a href="CombatActions.php?Name=Bull%20Rush">push him backwards</a> or other such maneuvers. To make one of these maneuvers you roll a d20 and add your maneuver bonus. A character's maneuver bonus is:</p>
 
-<p class="notation">Combat Bonus + Strength + Special Size Modifier + Miscellaneous Modifiers</p>
+<p class="notation">Combat Bonus + Strength + Miscellaneous Modifiers</p>
 
-<p>The maneuver roll is made against a Difficulty of 10 plus the target's maneuver bonus:</p>
-
-<p class="notation">Maneuver Difficulty = 10 + Maneuver Bonus</p>
+<p>The maneuver roll is made against the target's Parry (see below).</p>
 
 <p>Only creatures with an Intelligence of -3 or greater can attempt maneuvers at all. Creatures with an Intelligence of -4 or less have a Maneuver Bonus, to use in determining their Maneuver Difficulty (calculated as usual), but they cannot attempt special maneuvers themselves.</p>
 
@@ -101,10 +99,13 @@
 
 <h3>Base Defense</h3>
 <p>When not actively defending themselves (but still able to react and move), a hero has to rely on her Base Defense. This is used whenever a character is not aware of the incoming attack (for example, when they are <a href="PlayingConditions.php?Name=Flat-Footed">flat-footed</a>). Opponents attacking a <a href="PlayingConditions.php?Name=Flat-Footed">flat-footed</a> hero must exceed her Base Defense in order to strike her. A character's Base Defense is equal to:</p>
-<p class="notation">10 + Combat Bonus + Attack Size Modifier</p>
+<p class="notation">10 + Combat Bonus + Miscellaneous Modifiers</p>
 
 <a href="#CombatBonus"><h5>Combat Bonus</h5></a>
-<p>Your skill in combat allows you to avoid attacks, so you add your combat bonus to your defense. If you can't move, you can't use your combat bonus. For example, you lose your bonus if you're bound or unable to move. </p>
+<p>Your skill in combat allows you to avoid attacks, so you add your combat bonus to your defense. If you can't move, you can't use your combat bonus. For example, you lose your bonus if you're bound or unable to move.</p>
+
+<h5>Miscellaneous Modifiers</h5>
+<p>A character may have any sort of modifier that adjusts their Base Defense.</p>
 
 <h3>Dodge and Parry</h3>
 <p>These two values represent two different ways of avoiding incoming attacks. Any character who is aware of their opponent and able to act can choose either of these values against the attack. Dodge can be used against both melee and ranged attacks, whereas Parry can only be used against melee attacks.</p>
@@ -129,6 +130,8 @@
 <p>When a character is aware of an attack and able to react, they can actively attempt to block it. This is not an action; the character can choose to use their Parry against any incoming melee attack. An opponent trying to strike the hero needs to meet or exceed their Parry value with an attack roll in order to score a hit. Characters cannot use Parry when they are <a href="PlayingConditions.php?Name=Flat-Footed">flat-footed</a> or unable to move, or against ranged attacks. A character's Parry value is equal to:</p>
 
 <p class="notation">Base Defense + Strength + Miscellaneous Modifiers</p>
+
+<p>Note that your Parry is what you use to resist Maneuver attempts against you.</p>
 
 <a href="#BaseDefense"><h5>Base Defense</h5></a>
 <p>Here it is again. This number's important, you know.</p>

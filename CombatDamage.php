@@ -77,8 +77,8 @@
 <p>Objects are harder or easier to hit depending on several factors.</p>
 <ul>
 	<li><b>Held Objects:</b> Striking a held object is a <a href="CombatActions.php?Name=Sunder">Sunder</a> attempt and should be resolved according to the Sunder rules.</li>
-	<li><b>Carried or Worn Objects:</b> Objects carried or worn by a character have a base Defense equal to the character's <a href="Combat.php#BaseDefense">Defense</a> + the object's size modifier.</li>
-	<li><b>Immobile Objects:</b> Immobile objects have a <a href="Combat.php#BaseDefense">Defense</a> of 5 + the object's size modifier. Adjacent attacks get a +4 bonus to hit immobile objects. (If you take a full-round action to aim, you get an automatic hit with an adjacent attack or a +5 bonus with a ranged attack.)</li>
+	<li><b>Carried or Worn Objects:</b> Objects carried or worn by a character have a base Defense equal to the character's <a href="Combat.php#BaseDefense">Defense</a>.</li>
+	<li><b>Immobile Objects:</b> Immobile objects have a <a href="Combat.php#BaseDefense">Defense</a> of 5. Adjacent attacks get a +4 bonus to hit immobile objects. (If you take a full-round action to aim, you get an automatic hit with an adjacent attack or a +5 bonus with a ranged attack.)</li>
 </ul>
 
 <h3>Ineffective Attacks</h3>

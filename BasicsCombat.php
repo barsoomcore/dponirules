@@ -17,7 +17,7 @@
 <p>Sometimes you want to do something fancy, like knock a marine flat on his back, or drive right through the crowd of gibbering minions to hurl the mad scientist into his doomed creation. Good for you. To do these sorts of things you make an attack roll, but using your <a href="Combat.php#ManeuverBonus">Maneuver Bonus</a> rather than your Attack Bonus.</p>
 
 <h2>Defense</h2>
-<p>Defense represents how hard it is for someone to hit you. A hero's <a href="Combat.php#BaseDefense">Base Defense</a> is normally equal to 10 + their combat bonus + any applicable modifiers for size or feats or abilities.</p>
+<p>Defense represents how hard it is for someone to hit you. A hero's <a href="Combat.php#BaseDefense">Base Defense</a> is normally equal to 10 + their combat bonus + any applicable modifiers for feats or abilities.</p>
 <p>Your <a href="Combat.php#BaseDefense">Base Defense</a> is what an opponent needs to beat on an attack roll if you are not able to respond to their attack.</p>
 
 <h3>Dodge and Parry</h3>

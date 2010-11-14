@@ -16,7 +16,7 @@
 		<h3>The Ship</h3>
 		<div class="upperstatblock">
 		<p><b>Speed: 45</b></p>
-		<p><b>Defense: 8</b> (10 base, -4 size ,+1 Crew, +1 Commander)
+		<p><b>Defense: 7</b> (5 base, +1 Crew, +1 Commander)
 		<p><b>Toughness: +13</b> (+11 base, +2 hull thickness)
 		<p><b>Maneuver: 4</b></p>
 		<p><b>Attack:</b>
