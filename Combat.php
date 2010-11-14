@@ -42,9 +42,6 @@
 <h5>Dexterity</h5>
 <p>Speed, agility, and accuracy make it easier to hit the target. You add your character's Dexterity score to your combat bonus to reflect this.</p>
 
-<h5>Attack Size Modifier</h5>
-<p>Smaller targets are harder to hit, while larger targets are easier. A <a href="CharGenSize.php#SizeTable">size-based Attack Modifier</a> is used to reflect this. This bonus applies to both your attack bonus and your <a href="#BaseDefense">Base Defense</a> Since the same Attack Modifier applies to two opponents of the same size, they strike each other normally. </p>
-
 <h5>Miscellaneous Modifiers</h5>
 <p>The circumstances of your attack may involve a modifier to your attack bonus. Attacking while prone, for example, imposes a -4 penalty on melee attack rolls. See <a href="CombatModifiers.php">Combat Modifiers</a> for a detailed list of modifiers. In addition, a number of <a href="Feats.php">feats</a> can modify your attack bonus, such as <a href="Feats.php?Name=Attack%20Focus">Attack Focus</a>.</p>
 
@@ -75,9 +72,6 @@
 
 <h5>Strength</h5>
 <p>Power and force make it easier to overwhelm your opponent, so you add your strength to all maneuver rolls.</p>
-
-<h5>Maneuver Size Modifier</h5>
-<p>Larger creatures can more easily dominate smaller creatures. A special <a href="CharGenSize.php#SizeTable">size-based Maneuver Modifier</a> is used to reflect this.</p>
 
 <h5>Miscellaneous Modifiers</h5>
 <p>The circumstances of your maneuver may involve a modifier to your maneuver bonus. Attempting a <a href="CombatActions.php?Name=Grapple">grapple</a> without both hands free, for example, imposes a -4 penalty on your maneuver roll. See <a href="CombatModifiers.php">Combat Modifiers</a> for a detailed list of modifiers. In addition, any <a href="Feats.php">feats</a> that modify your <a href="#AttackBonus">attack bonus</a> with the weapon you are using to perform the maneuver (if any) also affect your maneuver bonus (both for attempting maneuvers and resisting them).</p>
@@ -111,9 +105,6 @@
 
 <a href="#CombatBonus"><h5>Combat Bonus</h5></a>
 <p>Your skill in combat allows you to avoid attacks, so you add your combat bonus to your defense. If you can't move, you can't use your combat bonus. For example, you lose your bonus if you're bound or unable to move. </p>
-
-<h5>Attack Size Modifier</h5>
-<p>The bigger an opponent is, the easier it is to hit in combat. The smaller it is, the harder it is to hit. The same <a href="CharGenSize.php#SizeTable">Attack Modifier for size</a> applies to your Base Defense as to your <a href="#AttackBonus">attack bonus</a>. Since this same modifier applies to attack rolls a creature doesn't have a hard time attacking another creature of the same size.</p>
 
 <h3>Dodge and Parry</h3>
 <p>These two values represent two different ways of avoiding incoming attacks. Any character who is aware of their opponent and able to act can choose either of these values against the attack. Dodge can be used against both melee and ranged attacks, whereas Parry can only be used against melee attacks.</p>

@@ -17,7 +17,7 @@ function CreaturesTypeList ($field, $term)
         $FeatTypesArray = explode (", ", $FeatTypes);
         $creaturetypestring = "<h2>$Name</h2>";
         $creaturetypestring .= "<p>$Description</p>";
-        if ($Toughness != "" ) {$creaturetypestring .= "<p><b>Toughness:</b> Base Toughness equal to $Toughness. This value is modified by their <a href=\"CharGenSize.php\">size</a> and <a href=\"EquipmentArmor.php\">armor</a>.</p>";}
+        if ($Toughness != "" ) {$creaturetypestring .= "<p><b>Toughness:</b> Base Toughness equal to $Toughness. This value is modified by their <a href=\"EquipmentArmor.php\">armor</a>.</p>";}
         if ($Combat != "" ) {$creaturetypestring .= "<p><b>Combat:</b> Base <a href=\"Combat.php#CombatBonus\">Combat Bonus</a> equal to $Combat times level.</p>";}
         if ($SV != "" ) {$creaturetypestring .= "<p><b>Good Saving Throws:</b> $SV</p>";}
         $creaturetypestring .= "<p><a href=\"Skills.php\"><b>Skills:</b></a> ";

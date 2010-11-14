@@ -30,23 +30,7 @@
 
 <h2>Ramming</h2> 
 <p>Sometimes guns aren't enough. Sometimes you just need to send a really clear message and just run right into the other guy. Shiver his timbers, so to speak. "Ramming Speed!"</p>
-<p>When two ships collide, they deal damage to each other according to their <a href="CharGenSize.php">size</a>. Each ship makes a Toughness save to determine how much damage was inflicted. The base damage for ramming is +4, adjusted by the size modifier listed below:</p>
-
-
-<h3>Collision Damage Size Modifier</h3>
-
-<table width="400px">
-	<th>Smallest Object or<br />Creature Size</th><th class="center">Damage Modifier</th>
-	<tr class="odd-row"><td>Awesome</td><td class="center">+20</td></tr>
-	<tr><td>Colossal</td><td class="center">+16</td></tr></td></tr>
-	<tr class="odd-row"><td>Gargantuan</td><td class="center">+12</td></tr></td></tr>
-	<tr><td>Huge</td><td class="center">+8</td></tr></td></tr>
-	<tr class="odd-row"><td>Large</td><td class="center">+4</td></tr></td></tr>
-	<tr><td>Medium</td><td class="center">+0</td></tr></td></tr>
-	<tr class="odd-row"><td>Small</td><td class="center">-4</td></tr></td></tr>
-	<tr><td>Tiny</td><td class="center">-8</td></tr></td></tr>
-	<tr class="odd-row"><td>Smaller than Tiny</td><td class="center">-12</td></tr>
-</table>
+<p>When two ships collide, each ship makes a Toughness save to determine how much damage was inflicted. The base damage for ramming is +12, adjusted by any Toughness bonuses the ship may have (for thick hulls or any other modifier).</p>
 
 <p>Ships are designed to handle fore-to-aft stresses better than beam-to-beam, and so if one ship can "T-Bone" another, by driving its prow into its target's side, the target suffers an additional +3 to damage, while the rammer enjoys a -3 reduction in its damage. Ships colliding head-on both take the additional +3.
 Ramming damage is always Hull damage.</p>

@@ -45,7 +45,7 @@
 
 <h2><a name="Carrying">Carrying</a></h2>
 
-<p>Strength determines how much weight heroes can lift and how much any additional encumbrance slows them down. See the Carrying Capacity table for how much characters can lift based on their Strength score. (The figures in the Carrying Capacity table are for medium creatures. Larger and smaller creatures can carry more or less depending on their size category. See <a href="CharGenSize.php">Size</a> for details.)</p>
+<p>Strength determines how much weight heroes can lift and how much any additional encumbrance slows them down. See the Carrying Capacity table for how much characters can lift based on their Strength score.</p>
 
 <h5>Table: Carrying Capacity</h5>
 <table class="last-row" cellpadding=0 cellspacing=0 width="75%">

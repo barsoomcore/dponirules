@@ -22,7 +22,7 @@
 	<li><a href="Combat.php#BaseDefense">Defense</a></li>
 	<li><a href="Powers.php">Power Ranks</a></li>
 </ul>
-<p>Note that you may not apply stunt bonuses to Toughness saves or any sort of Recovery check (whether for <a href="CombatDamage.php">Damage</a>, <a href="PlayingFatigue.php">Fatigue</a>, or <a href="BasicsConviction.php">Conviction</a>).</p>
+<p>Note that you may not apply stunt bonuses to Toughness saves or any sort of Recovery check (whether for <a href="CombatDamage.php">Damage</a> or <a href="BasicsConviction.php">Conviction</a>).</p>
 
 <h2>Notes</h2>
 <p><b>Restriction:</b> Each time a skill is used for a stunt bonus in an encounter, that skill's stunt bonus is reduced by one the next time it is used.</p>

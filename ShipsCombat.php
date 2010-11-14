@@ -33,27 +33,27 @@
 <p>When firing at a ship, the target is by default the hull of the ship. If desired, the guns may be aimed at the ship's rigging instead.</p>
 
 <h2>Aim! -- The Attack Roll and the Defense Value</h2>
-<p><b>Attack Roll:</b> Only a single attack roll is made for any volley, be it forward, aft or broadside. A ship has a base attack bonus of +0. Ships do not suffer <a href="CharGenSize.php">size modifiers</a> to their attack rolls. Instead, ships gain a bonus on their attack roll of +1 for every two guns participating in the volley. Ships also add their crew's Quality rating to their attack roll, as well as the Commander bonus.</p>
+<p><b>Attack Roll:</b> Only a single attack roll is made for any volley, be it forward, aft or broadside. A ship has a base attack bonus of +0. Ships gain a bonus on their attack roll of +1 for every two guns participating in the volley. Ships also add their crew's Quality rating to their attack roll, as well as the Commander bonus.</p>
 
 <p class="notation">Attack Bonus = 1/2 guns firing + Crew Quality + Commander Bonus</p>
 
-<p><b>Defense:</b> A ship's Defense is calculating as normal for any object: 10 plus <a href="CharGenSize.php">Size Modifier</a>. In addition, ships add their crew's Quality rating as well as the Commander Bonus to their Defense. Ships cannot use either <a href="Combat.php#Dodge">Dodge</a> or <a href="Combat.php#Parry">Parry</a>.</p>
+<p><b>Defense:</b> A ship's Defense is 5. In addition, ships add their crew's Quality rating as well as the Commander Bonus to their Defense. Ships cannot use either <a href="Combat.php#Dodge">Dodge</a> or <a href="Combat.php#Parry">Parry</a>.</p>
 
-<p class="notation">Defense = 10 + <a href="CharGenSize.php">Size Modifier</a> + Crew Quality + Commander Bonus</p>
+<p class="notation">Defense = 5 + Crew Quality + Commander Bonus</p>
 
 <h2>Fire! -- The Damage Bonus and the Toughness Save</h2>
 <p><b>Damage:</b> The damage for a ship's attack is determined by the success of the attack roll. Each cannon type has a Base Damage bonus. In addition, all cannon (not swivel guns) gain a Damage bonus equal to half the amount the attack roll exceeded the target's Defense.</p>
 <p>The total Damage bonus is added to 10 to determine the Toughness save DC for the target, as per the normal rules for damaging objects.<p>
-<p><b>Toughness:</b> A ship has a Toughness of +5 for 1" thick wood, +2 per <a href="CharGenSize.php">size category</a> above Medium. Furthermore, ships of Huge size or larger have up to 4" thick hulls (+2 to Toughness), and warships have up to 8" thick hulls (+3 to Toughness).</p>
+<p><b>Toughness:</b> Base Toughness bonuses are given below for different varieties of ships.  Furthermore, some ships have thick hulls (+2 to Toughness), and warships have extra thick hulls (+3 to Toughness).</p>
 
 <table class="last-row" width="100%">
-	<th>Ship Size</th><th class="center">Example</th><th class="center">Base Toughness</th><th class="center">4" hull</th><th class="center">8" hull</th>
-	<tr class="odd-row"><td>Medium</td><td class="center">Raft</td><td class="center">+5</td><td class="center">--</td><td class="center">--</td></tr>
-	<tr><td>Large</td><td class="center">Rowboat</td><td class="center">+7</td><td class="center">--</td><td class="center">--</td></tr>
-	<tr class="odd-row"><td>Huge</td><td class="center">Fishing boat</td><td class="center">+9</td><td class="center">+11</td><td class="center">+12</td></tr>
-	<tr><td>Gargantuan</td><td class="center">Frigate</td><td class="center">+11</td><td class="center">+13</td><td class="center">+14</td></tr>
-	<tr class="odd-row"><td>Colossal</td><td class="center">Pinnace</td><td class="center">+13</td><td class="center">+15</td><td class="center">+16</td></tr>
-	<tr><td>Awesome</td><td class="center">Imperial Ship of the Line</td><td class="center">+15</td><td class="center">+17</td><td class="center">+18</td></tr>
+	<th class="center">Example</th><th class="center">Base Toughness</th><th class="center">Thick hull</th><th class="center">Extra Thick hull</th>
+	<tr class="odd-row"><td class="center">Raft</td><td class="center">+5</td><td class="center">--</td><td class="center">--</td></tr>
+	<tr><td class="center">Rowboat</td><td class="center">+7</td><td class="center">--</td><td class="center">--</td></tr>
+	<tr class="odd-row"><td class="center">Fishing boat</td><td class="center">+9</td><td class="center">+11</td><td class="center">+12</td></tr>
+	<tr><td class="center">Frigate</td><td class="center">+11</td><td class="center">+13</td><td class="center">+14</td></tr>
+	<tr class="odd-row"><td class="center">Pinnace</td><td class="center">+13</td><td class="center">+15</td><td class="center">+16</td></tr>
+	<tr><td class="center">Imperial Ship of the Line</td><td class="center">+15</td><td class="center">+17</td><td class="center">+18</td></tr>
 </table>
 
 <p>For example, a brigandine fires a broadside of 10 medium cannon (base damage +12) at a fleeing merchant frigate (+13 Toughness). Since 10 guns were used in the attack, the brigandine gets a +5 to hit. It rolls 8 over the frigate's Defense for a +4 to damage (8/2 = 4) for +16 total damage. The frigate's Toughness save is Difficulty is 26. The frigate rolls a 7 on its Toughness save for a total of 20. Since the frigate failed its Toughness save by more than 4, it is Wounded.</p>

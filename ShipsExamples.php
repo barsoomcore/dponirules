@@ -15,7 +15,6 @@
 <div class="statblock">
 		<h3>The Ship</h3>
 		<div class="upperstatblock">
-		<p><b><a href="CharGenSize.php">Size</a>: Gargantuan</b></p>
 		<p><b>Speed: 45</b></p>
 		<p><b>Defense: 8</b> (10 base, -4 size ,+1 Crew, +1 Commander)
 		<p><b>Toughness: +13</b> (+11 base, +2 hull thickness)
@@ -32,7 +31,6 @@
 	<h3>The Crew</h3>
 	<div class="upperstatblock">
 		<p><b><a href="CreaturesTypes.php">Type</a>:</b> 1st level Humans (Ordinaries) -- <a href="CreaturesTemplates.php?Name=Combat%20Unit">Combat Unit</a> (Platoon)</p>
-		<p><b><a href="CharGenSize.php">Size</a>:</b> Medium</p>
 		<p><b>Speed:</b> 30 ft.</p>
 		<p><b><a href="BasicsAbilities.php">Abilities</a>:</b> Str +1, Dex +2, Con +0, Int +0, Wis +1, Cha +0</p>
 		<p><b><a href="Skills.php">Skills</a>:</b></p>

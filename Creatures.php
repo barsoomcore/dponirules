@@ -54,9 +54,6 @@ include ("Scripts/HeaderScript.php");
 	<p>Each creature is organized in the same general format, as described in the following text. Much of the information on a creature is condensed into a creature statistics block, the contents of which are explained below. </p>
 	<p>Each creature in this section is given in the same general format, and includes the following information:</p>
 	
-	<h3><a href="CharGenSize.php">Size</a></h3>
-	<p>Creatures can vary greatly in size, from as small as mice to as large as dinosaurs. A creature's size affects certain traits. Modifications for size are shown on the <a href="CharGenSize.php">Size table</a>.</p>
-	
 	<h3>Level</h3>
 	<p>Creatures have levels much like heroes and other characters do. However, most creatures do not have <a href="Roles.php">roles</a> or, more precisely, "creature" is their role in the story. Creature level can be treated much like role level in most ways, and is used to determine many of the creature's capabilities, just like role level for heroes.</p>
 	<p>A creature's level also serves as a rough guideline of what sort of challenge it should pose to the heroes. Generally, a creature the same level as the heroes should pose a reasonable challenge, while a lower-level creature is less of a threat and a higher-level creature is a more serious challenge. A creature more than two levels higher than the heroes may be too great of a challenge at the heroes' present level.</p>
@@ -88,9 +85,6 @@ include ("Scripts/HeaderScript.php");
 	
 	<h3><a href="BasicsAbilities.php">Abilities</a></h3>
 	<p>Creatures have the same ability scores as heroes: Strength (Str), Dexterity (Dex), Constitution (Con), Intelligence (Int), Wisdom (Wis), and Charisma (Cha), although some creatures lack certain ability scores, as outlined in <a href="BasicsAbilities.php#Nonexistent">the "Nonexistent Abilities" section</a>.</p>
-	
-	<h4>Strength</h4>
-	<p>Quadrupeds can carry heavier loads than bipedal creatures. Rather than using the carrying capacity multipliers in the <a href="CharGenSize.php">Size table</a>, quadrupeds use the following multipliers: Colossal x24, Gargantuan x12, Huge x6, Large x3, Medium x1-1/2, Small x1, Tiny x3/4, Diminutive x1/2, and Fine x1/4.</p>
 	
 	<h4>Intelligence</h4>
 	<p>A creature can speak all the languages mentioned in its descriptive text. Any creature with an Intelligence score of -3 or higher understands at least one language.</p>

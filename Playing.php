@@ -17,10 +17,6 @@
 
 <p>How to get along well with others. Make friends. Influence people. Seduce, betray, flatter and intrigue. Network. Get a job. Anything that involves other people, except when you're trying to kill them (or vice versa).</p>
 
-<h2><a href="PlayingFatigue.php">Fatigue</a></h2>
-
-<p>Some stuff in this game (especially the use of <a href="Powers.php">supernatural powers</a>) will tire you out.</p>
-
 <h2><a href="PlayingConditions.php">Conditions</a></h2>
 
 <p>Many are the things that can afflict a DINO-PIRATES hero. This is a big long list of them, and how they impact you in play.</p>

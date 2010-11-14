@@ -23,7 +23,6 @@ function CreaturesTemplatesList ($field, $term)
         if ($Level != "") {$creaturestring .= "<p><b>Level:</b> $Level</p>";}
         $creaturestring .= "<p><b><a href=\"CreaturesTypes.php\">Type</a>:</b> $Type</p>";
         if ($SubType != "") { $creaturestring .= "<p><b><a href=\"CreaturesSubTypes.php\">Sub-Type:</a></b> $SubType</p>";}
-        if ($Size != "" ) {$creaturestring .= "<p><b><a href=\"CharGenSize.php\">Size</a>:</b> $Size</p>";}
         if ($Spd != "" ) {$creaturestring .= "<p><b>Speed:</b> $Spd</p>";}
         if ($Abilities != "" ) {$creaturestring .= "<p><b><a href=\"BasicsAbilities.php\">Abilities</a>:</b> $Abilities</p>";}
         if ($Skills != "" ) {$creaturestring .= "<p><b><a href=\"Skills.php\">Skills</a>:</b> $Skills</p>";}

@@ -12,14 +12,12 @@
 <h2>A Ship</h2>
 <p>In DINO-PIRATES OF NINJA ISLAND, we like things simple. So a ship's combat description is kept to a minimum number of statistics:</p>
 <dl>
-	<dt><a href="CharGenSize.php">Size</a>:</dt>
-		<dd>Ships use the same categories as creatures, with an additional size category of "Awesome" above and beyond Colossal.</dd>
 	<dt>Speed: </dt>
 		<dd>Listed in feet/round.</dd>
 	<dt><a href="Combat.php#BaseDefense">Defense</a>: </dt>
-		<dd>A ship has a <a href="Combat.php#BaseDefense">Defense</a> of 10 + its <a href="CharGenSize.php">Size Modifier</a> + the <a href="CreaturesTemplates.php?Name=Combat%20Unit">Commander Effect</a> of its captain.</dd>
+		<dd>A ship has a <a href="Combat.php#BaseDefense">Defense</a> of 5 + the <a href="CreaturesTemplates.php?Name=Combat%20Unit">Commander Effect</a> of its captain.</dd>
 	<dt>Toughness: </dt>
-		<dd>A ship has a Toughness of +5 for 1" thick wood, +2 per <a href="CharGenSize.php">size category</a> above Medium. Furthermore, ships of Huge size or larger have up to 4" thick hulls (+2 to Toughness), and warships have up to 8" thick hulls (+3 to Toughness).</dd>
+		<dd>A ship has a base Toughness bonus of +10. Furthermore, some ships have thick hulls (+2 to Toughness), and warships have extra thick hulls (+3 to Toughness).</dd>
 	<dt>Maneuver:</dt> 
 		<dd>The number of turns a vessel can make in one round (where a turn is 1/16 of a circle). A vessel with a maneuver of 1 requires 8 rounds to turn 180 degrees. This number is modified by the Crew Quality (see below).</dd>
 	<dt>Attack Fore/Aft/Broadside: </dt>
@@ -36,7 +34,7 @@
 <h2>A Crew</h2>
 <p>Likewise, a crew's description is simple. We use the <a href="CreaturesTemplates.php?Name=Combat%20Unit">Combat Unit template</a>:</p>
 <dl>
-	<dt><a href="CreaturesTypes.php">Type</a> and <a href="CharGenSize.php">Size</a>:</dt>
+	<dt><a href="CreaturesTypes.php">Type</a>:</dt>
 		<dd>According to the creature <a href="CreaturesTypes.php">type</a>.</dd>
 	<dt>Speed:</dt>
 		<dd>in feet/round
@@ -57,7 +55,7 @@
 		<ul>
 			<li><b><a href="PlayingConditions.php?Name=Wounded">Wounded</a>:</b> A crew that takes a <a href="PlayingConditions.php?Name=Wounded">wounded</a> result suffers 10% casualties.
 			<li><b><a href="PlayingConditions.php?Name=Disabled">Disabled</a>:</b> A crew that takes a <a href="PlayingConditions.php?Name=Disabled">disabled</a> result suffers 25% casualties and is treated as a Quality one level less than originally.
-			<li><b><a href="PlayingConditions.php?Name=Dying">Dying</a>: </b>A crew that takes a <a href="PlayingConditions.php?Name=Dying">dying</a> result suffers 50% casualties and adopts the qualities of a Combat Unit one <a href="CharGenSize.php">size</a> smaller. Such a crew is also treated as if it had a Quality two levels less than originally.
+			<li><b><a href="PlayingConditions.php?Name=Dying">Dying</a>: </b>A crew that takes a <a href="PlayingConditions.php?Name=Dying">dying</a> result suffers 50% casualties and has a -2 penalty on all actions. Such a crew is also treated as if it had a Quality two levels less than originally.
 			<li><b><a href="PlayingConditions.php?Name=Dead">Dead</a>:</b> A crew that takes a <a href="PlayingConditions.php?Name=Dead">dead</a> result suffers 90% casualties and disbands. Their ship has no effective crew at all.
 		</ul></dd>
 	<dt>Quality:</dt>
@@ -78,17 +76,17 @@
 <p>There are four types of cannon, each differentiated by damage, size and number of crew required to operate one.</p>
 
 <table class="last-row" width="500px">
-	<th>Gun Type</th><th class="center">Damage</th><th class="center">Size Category</th><th class="center">Crew</th>
-	<tr class="odd-row"><td>Swivel Gun</td><td class="center">+6 (slashing)</td><td class="center">Large</td><td class="center">1</td></tr>
-	<tr><td>Small Cannon</td><td class="center">+8 (piercing)*</td><td class="center">Gargantuan</td><td class="center">2</td></tr>
-	<tr class="odd-row"><td>Medium Cannon</td><td class="center">+12 (piercing)*</td><td class="center">Colossal</td><td class="center">3</td></tr>
-	<tr><td>Large Cannon</td><td class="center">+16 (piercing)*</td><td class="center">Awesome</td><td class="center">4</td></tr>
+	<th>Gun Type</th><th class="center">Damage</th><th class="center">Crew</th>
+	<tr class="odd-row"><td>Swivel Gun</td><td class="center">+6 (slashing)</td><td class="center">1</td></tr>
+	<tr><td>Small Cannon</td><td class="center">+8 (piercing)*</td><td class="center">2</td></tr>
+	<tr class="odd-row"><td>Medium Cannon</td><td class="center">+12 (piercing)*</td><td class="center">3</td></tr>
+	<tr><td>Large Cannon</td><td class="center">+16 (piercing)*</td><td class="center">4</td></tr>
 </table>
 
 <p style="font-size:80%">* plus half of excess Attack roll; see "Damage" below</a>
 
 <p>All cannon have a range increment of 100 feet. Swivel guns have a range increment of 20 feet.</p>
-<p>Obviously, the bigger the ship, the more guns it can hold. And more guns is good. A ship can only hold cannon of the same <a href="CharGenSize.php">size category</a> or smaller than the ship itself. Gargantuan ships can hold up to 16 guns, Colossal ships can hold up to 30 guns, and Awesome ships can hold up to 45 guns.</p>
+<p>Obviously, the bigger the ship, the more guns it can hold. And more guns is good. A ship can only carry cannon whose damage bonus is no more than the ship's Toughness bonus. Pretty big ships can hold up to 16 guns, full-on ships of the line can hold up to 30 guns, and the largest of warships can hold up to 45 guns.</p>
 <p>Don't get shot by one of those.</p>
 <p>The actual number of guns present may vary from one ship to another. There will be a bunch of example ships that you can rely on. Generally speaking, a merchant ship will have no more than half the maximum number of guns -- any more than that and it becomes impossible to carry enough cargo to make a profit. Besides which, guns do you no good if you don't have enough crew to man them (and the ship besides, if you want to be able to maneuver during fighting).</p>
 

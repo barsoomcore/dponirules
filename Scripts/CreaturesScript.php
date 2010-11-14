@@ -21,7 +21,6 @@ function CreaturesList ($field, $term)
         //$creaturestring .= "<img style=\"float:right\" src=\"/dponiwiki/media/images/".$name.".png\" />";
         $creaturestring .= "<p><b><a href=\"CreaturesTypes.php\">Type</a>:</b> $Level level <a href=\"CreaturesTypes.php?Name=".urlencode($Type)."\">$Type</a> ";
         if ($SubType != "") { $creaturestring .= "(<a href=\"CreaturesSubTypes.php?Name=".urlencode($SubType)."\">$SubType</a>)";}
-        if ($Size != "" ) {$creaturestring .= "<p><b><a href=\"CharGenSize.php\">Size</a>:</b> $Size</p>";}
         if ($Spd != "" ) {$creaturestring .= "<p><b>Speed:</b> $Spd</p>";}
         if ($Abilities != "" ) {$creaturestring .= "<p><b><a href=\"BasicsAbilities.php\">Abilities</a>:</b> $Abilities</p>";}
         if ($Skills != "" ) {
@@ -138,7 +137,7 @@ function CreaturesJSON ($field, $term)
 	{
 		list($name, $Level, $Type, $SubType, $Size, $Spd, $Abilities, $Skills, $Feats, $Traits, $Combat, $ST, $Desc, $Details) = $individualListing;
 		
-		$Label = $Size." ".$Type." ".$SubType;
+		$Label = $Type." ".$SubType;
 		$creatureJSON = "{ \"role_name\": \"".$Label."\", ";
 		$creatureJSON .= "\"npc_name\": \"".$name."\", ";
 		$creatureJSON .= "\"description\": \"".addslashes($Desc)."\", ";

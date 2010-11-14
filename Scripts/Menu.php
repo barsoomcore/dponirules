@@ -34,8 +34,8 @@ $sublist = array (
     ),
     
     "chargenlist" => array (
-        "url" => array ("CharGen.php", "CharGenHistory.php", "CharGenBackgrounds.php", "CharGenSize.php", "CharGenSamples.php", "CharGenChen.php", "CharGenKana.php", "CharGenMbungo.php", "CharGenMingWa.php", "CharGenShugo.php", "CharGenVictoria.php"),
-        "name" => array ("Character Creation", "History", "Backgrounds", "Size", "Sample Characters", "hidden", "hidden", "hidden", "hidden", "hidden", "hidden")
+        "url" => array ("CharGen.php", "CharGenHistory.php", "CharGenBackgrounds.php", "CharGenSamples.php", "CharGenChen.php", "CharGenKana.php", "CharGenMbungo.php", "CharGenMingWa.php", "CharGenShugo.php", "CharGenVictoria.php"),
+        "name" => array ("Character Creation", "History", "Backgrounds", "Sample Characters", "hidden", "hidden", "hidden", "hidden", "hidden", "hidden")
     ),
     
     "rolelist" => array ( 
@@ -44,8 +44,8 @@ $sublist = array (
     ),
     
     "playinglist" => array (
-    	"url" => array ("Playing.php", "PlayingPhysical.php", "PlayingSocial.php", "PlayingFatigue.php", "PlayingConditions.php", "PlayingHazards.php"),
-    	"name" => array ("Playing The Game", "Physical Actions", "Social Actions", "Fatigue", "Conditions",  "Hazards")
+    	"url" => array ("Playing.php", "PlayingPhysical.php", "PlayingSocial.php", "PlayingConditions.php", "PlayingHazards.php"),
+    	"name" => array ("Playing The Game", "Physical Actions", "Social Actions", "Conditions",  "Hazards")
     ),
     
     "combatlist" => array (

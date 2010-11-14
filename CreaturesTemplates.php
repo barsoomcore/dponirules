@@ -37,8 +37,6 @@ else {
 	echo "<p>A template's description provides a set of instructions for altering an existing creature, known as the base creature. The changes that a template might cause to a creature are discussed below. Generally, if a template does not cause a change to a certain statistic, that entry is missing from the template description. For clarity, the entry for a statistic or attribute that is not changed is sometimes given as \"Same as the base creature\".</p>";
 	echo "<h3>Type</h3>";
 	echo "<p>Templates often change a creature's <a href=\"CreaturesTypes.php\">type</a>. The creature gains all the standard <a href=\"CreaturesTraits.php\">traits</a> of the new <a href=\"CreaturesTypes.php\">type</a>, but retains features of its old <a href=\"CreaturesTypes.php\">type</a> unless those are specifically modified.</p>";
-	echo "<h3>Size</h3>";
-	echo "<p>Templates may change the creature's <a href=\"CharGenSize.php\">size</a>. If a template changes a creature's <a href=\"CharGenSize.php\">size</a>, the creature acquires all the features of its new <a href=\"CharGenSize.php\">size</a>.</p>";
 	echo "<h3>Speed</h3>";
 	echo "<p>If a template modifies a creature's speed, the template states how that happens. More commonly, a template add a new mode of movement.</p>";
 	echo "<h3>Abilities</h3>";

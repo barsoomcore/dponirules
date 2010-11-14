@@ -17,7 +17,7 @@
 <p>So armor that grants a +1 Toughness bonus imposes a -3 penalty on <a href="Skills.php?Name=Acrobatics">Acrobatics</a>, <a href="Skills.php?Name=Climb">Climb</a>, <a href="Skills.php?Name=Escape%20Artist">Escape Artist</a>, <a href="Skills.php?Name=Jump">Jump</a>, <a href="Skills.php?Name=Stealth">Stealth</a>, <a href="Skills.php?Name=Sleight%20of%20Hand">Sleight of Hand</a> checks, and a -6 penalty on <a href="Skills.php?Name=Swim">Swim</a> checks.</p>
 
 <h2>Armor and Fatigue</h2>
-<p>In addition, wearing armor for extended periods of time causes <a href="PlayingFatigue.php">fatigue</a>. Each hour armor is worn, the wearer must make a Fortitude save against a Difficulty equal to 15 plus the armor's Toughness bonus. Failing this save causes the wearer to take a level of <a href="PlayingFatigue.php">fatigue</a>. No recovery checks against this <a href="PlayingFatigue.php">fatigue</a> are possible until the armor is removed.</p>
+<p>In addition, wearing armor for extended periods of time causes <a href="CombatDamage.php">non-lethal damage</a>. Each hour armor is worn, the wearer must make a Fortitude save against a Difficulty equal to 15 plus the armor's Toughness bonus. Failing this save causes the wearer to take a <a href="PlayingConditions.php?Name=Bruised">Bruised</a> condition. No recovery checks against this <a href="CombatDamage.php">non-lethal damage</a> are possible until the armor is removed.</p>
 
 <h2>Armor Types</h2>
 <p>If you still really want armor, here are the available armor types in the islands.</p>
