@@ -7,7 +7,7 @@
 
 <h1>CHARACTER GENERATION</h1>
 <div style="float:left;">
-	<a href="/dponiwiki/media/images/DPoNICharacterSheet.pdf"><img src="/dponiwiki/media/images/CharSheet.png"></a>
+	<a href="/dponiwiki/media/files/DPoNICharacterSheet.pdf"><img src="/dponiwiki/media/images/CharSheet.png"></a>
 	<p style="font-size:70%; font-weight: bold; text-align:center">The official DPoNI character sheet!</p>
 </div>
 <p>You don't have to start by creating your own character: we've supplied a number of <a href="CharGenSamples.php">sample characters</a> for you to choose from if you just want to get started and not worry too much.</p>

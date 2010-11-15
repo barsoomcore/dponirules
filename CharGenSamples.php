@@ -61,7 +61,7 @@
 
 <h2>The DPoNI Character Sheet</h2>
 
-<img src="/dponiwiki/media/images/CharSheet.png" style="float:left;"><p><a href="/dponiwiki/media/images/DPoNICharacterSheet.pdf">Download the official DINO-PIRATES OF NINJA ISLAND character sheet.</a> It's only one page because we don't like lots of record-keeping, but it's got places for keeping track of all the important stuff, like how often you've used a <a href="Skills.php">skill</a> for <a href="BasicsStunts.php">stunting</a>, your current <a href="CombatDamage.php">damage level</a>, all your <a href="Combat.php">combat statistics</a> and it's even got room for a big long history or possibly a fancy sketch of your character if you're so inclined.</p>
+<img src="/dponiwiki/media/images/CharSheet.png" style="float:left;"><p><a href="/dponiwiki/media/files/DPoNICharacterSheet.pdf">Download the official DINO-PIRATES OF NINJA ISLAND character sheet.</a> It's only one page because we don't like lots of record-keeping, but it's got places for keeping track of all the important stuff, like how often you've used a <a href="Skills.php">skill</a> for <a href="BasicsStunts.php">stunting</a>, your current <a href="CombatDamage.php">damage level</a>, all your <a href="Combat.php">combat statistics</a> and it's even got room for a big long history or possibly a fancy sketch of your character if you're so inclined.</p>
 
 </div>
 

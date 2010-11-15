@@ -8,7 +8,7 @@
 
 <h1>SAMPLE CHARACTERS: SHUGO</h1>
 
-<p><a href="/dponiwiki/media/images/Shugo01.pdf">Download PDF of Shugo's Character Sheet</a></p>
+<p><a href="/dponiwiki/media/files/Shugo01.pdf">Download PDF of Shugo's Character Sheet</a></p>
 
 <img src="/dponiwiki/media/images/ShugoThumb.png" style="float:left"><p>Shugo is the classic ninja: stealthy, skilled and deadly. Well, one day, maybe, he'll be deadly. Right now he's going to have to settle for two out of three. As our only example of the <a href="RolesGeneralist.php">Generalist role</a>, Shugo shows the wide range of this role with a broad array of skills, supernatural powers and the promise of real combat expertise.</p>
 

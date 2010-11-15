@@ -8,7 +8,7 @@
 
 <h1>SAMPLE CHARACTERS: VICTORIA</h1>
 
-<p><a href="/dponiwiki/media/images/Victoria01.pdf">Download PDF of Victoria's Character Sheet</a></p>
+<p><a href="/dponiwiki/media/files/Victoria01.pdf">Download PDF of Victoria's Character Sheet</a></p>
 
 <img src="/dponiwiki/media/images/VictoriaThumb.png" style="float:left"><p>Victoria is a <a href="CharGenBackgrounds.php">DINO-PIRATE</a> -- in particular, she's part of the Raptor clan of DINO-PIRATES. See, the DINO-PIRATES all take their names from various dinosaurs. There's not much actual organization to these groups; not like the ninja clans, which have all their ninja rules and ninja traditions and what not. The DINO-PIRATES aren't that interested in tradition and rules anyway. So Victoria is a Raptor DINO-PIRATE, so if she meets other Raptors (possibly there's a secret handshake), she'll probably help them out if they, say, get into a fight (pirates: fighting a lot).</p>
 

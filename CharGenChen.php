@@ -8,7 +8,7 @@
 
 <h1>SAMPLE CHARACTERS: CHEN</h1>
 
-<p><a href="/dponiwiki/media/images/Chen01.pdf">Download PDF of Chen's Character Sheet</a></p>
+<p><a href="/dponiwiki/media/files/Chen01.pdf">Download PDF of Chen's Character Sheet</a></p>
 
 <img src="/dponiwiki/media/images/ChenThumb.png" style="float:left"><p>Meet stalwart Chen, former Imperial Marine gone pirate. Chen came to the islands as part of a punitive fleet expedition, but when he saw how the Empire oppressed the courageous islanders, his heart was forever turned against the vast nation that had spawned him. Now he saves his special hatred for the agents of the Empire that always seek to overrun the free islands.</p>
 

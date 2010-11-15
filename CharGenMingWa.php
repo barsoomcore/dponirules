@@ -8,7 +8,7 @@
 
 <h1>SAMPLE CHARACTERS: MING-WA</h1>
 
-<p><a href="/dponiwiki/media/images/MingWa01.pdf">Download PDF of Ming Wa's Character Sheet</a></p>
+<p><a href="/dponiwiki/media/files/MingWa01.pdf">Download PDF of Ming Wa's Character Sheet</a></p>
 
 <img src="/dponiwiki/media/images/MingWaThumb.png" style="float:left"><p>Ming-Wa's an escapee from one of the fearsome eunuch sorcerers now ruling the great Empire to the north. The magic she learned from her terrible master is unsubtle and potent. Her build is an interesting one, pointing out some of the big differences between this game and other games you might be more familiar with.</p>
 

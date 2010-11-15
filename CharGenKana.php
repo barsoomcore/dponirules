@@ -8,7 +8,7 @@
 
 <h1>SAMPLE CHARACTERS: KANA</h1>
 
-<p><a href="/dponiwiki/media/images/Kana01.pdf">Download PDF of Kana's Character Sheet</a></p>
+<p><a href="/dponiwiki/media/files/Kana01.pdf">Download PDF of Kana's Character Sheet</a></p>
 
 <img src="/dponiwiki/media/images/KanaThumb.png" style="float:left"><p>Kana is an <a href="RolesAdept.php">adept</a>, with her focus on managing animals, in particular the big showcase animals of DINO-PIRATES OF NINJA ISLAND, the dinosaurs. While she can work effectively with any sorts of animals, she's taken a couple of feats to zero in on the big beasts. The concept is a young woman from the jungle with the uncanny ability to befriend and command dangerous beasts. She's got serious presence and is hard to flummox.</p>
 

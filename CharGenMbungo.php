@@ -8,7 +8,7 @@
 
 <h1>SAMPLE CHARACTERS: MBUNGO</h1>
 
-<p><a href="/dponiwiki/media/images/Mbungo01.pdf">Download PDF of Mbungo's Character Sheet</a></p>
+<p><a href="/dponiwiki/media/files/Mbungo01.pdf">Download PDF of Mbungo's Character Sheet</a></p>
 
 <img src="/dponiwiki/media/images/MbungoThumb.png" style="float:left"><p>The mighty hunter Mbungo comes from the deep jungle, but unlike Kana he is not superstitious or possessed of strange powers. Such abilities as Mbungo has he has learned through his own skill and hard work. As his description notes: "Mbungo knows the ways of the jungle, and can track and follow the beasts that dwell within. He isn't the strongest, but he is nimble. He loves to show off his skills, but doesn't always recognize when he's outmatched."</p>
 
