@@ -42,7 +42,7 @@
 
 <h2><a href="/dponiwiki/page/empire/">Imperials</a></h2>
 <ul>
-	<li>Bonus <a href="Feats.php">Feats</a>: <a href="Feats.php?Name=Tireless">Tireless</a>, <a href="Feats.php?Name=Great%20Fortitude">Great Fortitude</a></li>
+	<li>Bonus <a href="Feats.php">Feats</a>: <a href="Feats.php?Name=Skill+Training">Skill Training</a>, <a href="Feats.php?Name=Great%20Fortitude">Great Fortitude</a></li>
 	<li>Bonus <a href="Skills.php">Skills</a>: <a href="Skills.php?Name=Concentration">Concentration</a>, <a href="Skills.php?Name=Intimidate">Intimidate</a></li>
 	<li>Favoured <a href="Feats.php">Feats</a>: <a href="Feats.php?Name=Diehard">Diehard</a>, <a href="Feats.php?Name=Master%20Plan">Master Plan</a></li>
 </ul>
