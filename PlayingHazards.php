@@ -16,7 +16,7 @@
 <p><a name="Cold">Creatures immune to acid's</a> caustic properties might still drown in it if they are totally immersed and need to breathe (see <a href="#Suffocation">Suffocation</a>).</p>
 
 <h2>Cold</h2>
-<p>An unprotected character in cold weather must make a Fortitude save (Difficulty 15, + 1 per previous check) or receive a level of <a href="PlayingFatigue">fatigue</a>. Additional failed saves cause further levels of <a href="PlayingFatigue">fatigue</a>. Once a character is <a href="PlayingConditions.php?Name=Unconscious">unconscious</a>, failed saves cause the character to become <a href="PlayingConditions.php?Name=Disabled">disabled</a>, then <a href="PlayingConditions.php?Name=Dying">dying</a>.</p>
+<p>An unprotected character in cold weather must make a Fortitude save (Difficulty 15, + 1 per previous check) or take a <a href="PlayingConditions.php?Name=Bruised">Bruised</a> condition. Additional failed saves cause further levels of <a href="CombatDamage.php">non-lethal damage</a>. Once a character is <a href="PlayingConditions.php?Name=Unconscious">unconscious</a>, failed saves cause the character to become <a href="PlayingConditions.php?Name=Disabled">disabled</a>, then <a href="PlayingConditions.php?Name=Dying">dying</a>.</p>
 
 <p>Characters may make Survival checks to receive a bonus on this saving throw (see the skill's description for further information). Characters in cold weather (below 40* F) make a Fortitude save each hour. In conditions of severe cold or exposure (below 0* F), an unprotected character must make a Fortitude save once every 10 minutes. Characters in severe cold conditions wearing winter clothing only need check once per hour for cold damage.</p>
 
@@ -85,7 +85,7 @@
 
 <p><a name="Suffocation">A character can go without food</a> for 3 days, in growing discomfort. After this time, the character must make a Constitution check each day (Difficulty 10, +1 for each previous check) or take a <a href="PlayingConditions.php?Name=Bruised">Bruised</a> condition. Once <a href="PlayingConditions.php?Name=Unconscious">unconscious</a>, the character is <a href="PlayingConditions.php?Name=Disabled">disabled</a> if he fails another Constitution check, then <a href="PlayingConditions.php?Name=Dying">dying</a></p>
 
-<p>Fatigue from thirst or starvation cannot be recovered until the character gets food or water.</p>
+<p>Non-lethal damage from thirst or starvation cannot be recovered until the character gets food or water.</p>
 
 <h2>Suffocation</h2>
 <p>A character with no air to breathe can hold her breath for 2 minutes (20 rounds), plus or minus a number of rounds equal to her Constitution score times 4. So a Constitution +2 character can hold her breath for 28 rounds, while a Constitution -2 character can only hold her breath for 12 rounds. After this period of time, the character must make a Difficulty 10 Constitution check in order to continue holding her breath. The check must be repeated each round, with the Difficulty increasing by +1 for each previous success.</p>

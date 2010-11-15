@@ -43,15 +43,10 @@
 <p>If one character spends a Conviction point on a departure, another character in the scene can choose to spend a Conviction point of their own in order to attempt to prevent the exit. If they spend the Conviction point, then the two characters make an opposed check of whatever seems suitable according to the departing character's mode of exit -- if nothing suggests itself then use opposed Charisma checks. If the departing character succeeds, their exit is unimpeded; if they fail, their exit is prevented and they remain in the scene.</p>
 
 <h2>Scenes and Recovery</h2>
-<p>After any scene, a character can make both a Damage and a Fatigue Recovery check. After a Dramatic or Climactic scene, a character can make a Conviction Recovery check. In addition, certain scenes automatically recover some conditions, as follows.</p>
+<p>After any scene, a character can make a Damage Recovery check. After a Dramatic or Climactic scene, a character can make a Conviction Recovery check. In addition, certain scenes automatically recover some conditions, as follows.</p>
 
 <h3>After an Ordinary Scene</h3>
-<p>After an ordinary scene, in addition to making a Damage and a Fatigue Recovery check, heroes can:</p>
-
-<ul>
-	<li>Automatically Recover all <a href="PlayingConditions.php?Name=Bruised">Bruised</a>, <a href="PlayingConditions.php?Name=Hurt">Hurt</a>, <a href="PlayingConditions.php?Name=Dazed">Dazed</a>, <a href="PlayingConditions.php?Name=Staggered">Staggered</a> and <a href="PlayingConditions.php?Name=Unconscious">Unconscious</a> conditions</li>
-	<li>Automatically recover all <a href="PlayingConditions.php?Name=Strained">Strained</a> or <a href="PlayingConditions.php?Name=Winded">Winded</a> conditions</li>
-</ul>
+<p>After an ordinary scene, in addition to making a Damage and a Fatigue Recovery check, heroes can automatically recover all <a href="PlayingConditions.php?Name=Bruised">Bruised</a>, <a href="PlayingConditions.php?Name=Hurt">Hurt</a>, <a href="PlayingConditions.php?Name=Dazed">Dazed</a>, <a href="PlayingConditions.php?Name=Staggered">Staggered</a> and <a href="PlayingConditions.php?Name=Unconscious">Unconscious</a> conditions. This recovery is subject to <a href="CombatDamage.php#Recovery">normal recovery rules</a>, however, and so if a more serious condition exists (<a href="PlayingConditions.php?Name=Disabled">Disabled</a>, for example), no lesser condition can be recovered from.</p>
 
 <h3>After a Dramatic Scene</h3>
 <p>After a dramatic scene, in addition to the recovery enabled in an ordinary scene, heroes can attempt a Conviction Recovery check to recover a spent <a href="BasicsConviction.php">Conviction point</a>.</p>
@@ -65,20 +60,13 @@
 
 <h3>Damage Carry-Over</h3>
 <h4><a href="PlayingConditions.php?Name=Dying">Dying</a></h4>
-<p>A character who suffers a <a href="PlayingConditions.php?Name=Dying">Dying</a> condition in a scene must start the next scene with at least one <a href="PlayingConditions.php?Name=Wounded">Wounded</a> condition.</p>
+<p>A character who suffers a <a href="PlayingConditions.php?Name=Dying">Dying</a> condition in a scene must start the next scene with at least two <a href="PlayingConditions.php?Name=Wounded">Hurt</a> conditions.</p>
 
 <h4><a href="PlayingConditions.php?Name=Disabled">Disabled</a></h4>
 <p>A character who suffers a <a href="PlayingConditions.php?Name=Disabled">Disabled</a> condition in a scene must start the next scene with at least one <a href="PlayingConditions.php?Name=Hurt">Hurt</a> condition.</p>
 
-<h3>Fatigue Carry-Over</h3>
-<h4><a href="PlayingConditions.php?Name=Exhausted">Exhausted</a></h4>
-<p>A character who suffers an <a href="PlayingConditions.php?Name=Exhausted">Exhausted</a> condition in a scene takes a <a href="PlayingConditions.php?Name=Winded">Winded</a> condition in the next scene.</p>
-
-<h4><a href="PlayingConditions.php?Name=Fatigued">Fatigued</a></h4>
-<p>A character who suffers a <a href="PlayingConditions.php?Name=Fatigued">Fatigued</a> condition in a scene takes a <a href="PlayingConditions.php?Name=Strained">Strained</a> condition in the next scene.</p>
-
 <h2>Between Scenes</h2>
-<p>Of course the world carries on between scenes, and players may want their characters to perform actions between scenes. This is fine and reasonable. Characters can do mundane tasks, have conversations and so on between scenes. If a character wishes to use a <a href="Powers.php">supernatural power</a> between scenes, then they must make fatigue checks as normal, and they begin the next scene with any fatigue acquired thereby.</p>
+<p>Of course the world carries on between scenes, and players may want their characters to perform actions between scenes. This is fine and reasonable. Characters can do mundane tasks, have conversations and so on between scenes. If a character wishes to use a <a href="Powers.php">supernatural power</a> between scenes, then they must make Resilience checks as normal, and they begin the next scene with any non-lethal damage acquired thereby.</p>
 <p>Characters cannot spend <a href="BasicsConviction.php">Conviction points</a> between scenes.</p>
 
 </div>
