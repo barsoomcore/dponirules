@@ -19,7 +19,7 @@ include ("Scripts/HeaderScript.php");
 
 <h1>ENEMIES</h1>
 
-<p>Your heroes will most often fight one of two types of bad guys: <a href="../../villains">Villains</a>, and Minions.</p>
+<p>Your heroes will most often fight one of two types of bad guys: <a href="../../dponiwiki/villains">Villains</a>, and Minions.</p>
 
 <h2>Villains</h2>
 
