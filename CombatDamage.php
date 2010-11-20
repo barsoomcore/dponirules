@@ -90,17 +90,17 @@
 <h3><a name="Objects">Object Toughness</a></h3>
 <p>Each object has a Toughness score representing how well it resists damage. An object's Toughness works like a character's Toughness. To determine how much damage an object takes from an attack, roll d20 + Toughness against a Difficulty of 10 + the attack's <a href="Combat.php#Damage">damage bonus</a>. The Toughness scores given on the Substance Toughness table are for approximately 1 inch of the material. Heavier objects increase their Toughness by +1 per doubling in thickness, so a foot-thick stone wall has a Toughness of 12 (base Toughness 8, +4 for approximately four doubling of thickness). Characters can attempt to break through heavier objects a little at a time, rather than all at once, such as chipping away at a stone wall inch by inch.</p>
 
-<table class="last-row" width="300px"><th>Substance</th><th class="center">Toughness</th>
+<table class="last-row" width="300px"><th>Substance</th><th class="center">Toughness Bonus</th>
 <tr class="odd-row"><td>Paper</td><td class="center">-10</td></tr>
-<tr><td>Glass</td><td class="center">0</td></tr>
-<tr class="odd-row"><td>Ice</td><td class="center">0</td></tr>
-<tr><td>Paper</td><td class="center">0</td></tr>
-<tr class="odd-row"><td>Rope</td><td class="center">0</td></tr>
-<tr><td>Soil</td><td class="center">2</td></tr>
-<tr class="odd-row"><td>Wood</td><td class="center">5</td></tr>
-<tr><td>Stone</td><td class="center">8</td></tr>
-<tr class="odd-row"><td>Iron</td><td class="center">10</td></tr>
-<tr><td>Steel</td><td class="center">15</td></tr></table> 
+<tr><td>Glass</td><td class="center">+0</td></tr>
+<tr class="odd-row"><td>Ice</td><td class="center">+0</td></tr>
+<tr><td>Paper</td><td class="center">+0</td></tr>
+<tr class="odd-row"><td>Rope</td><td class="center">+0</td></tr>
+<tr><td>Soil</td><td class="center">+2</td></tr>
+<tr class="odd-row"><td>Wood</td><td class="center">+5</td></tr>
+<tr><td>Stone</td><td class="center">+8</td></tr>
+<tr class="odd-row"><td>Iron</td><td class="center">+10</td></tr>
+<tr><td>Steel</td><td class="center">+15</td></tr></table> 
 
 <h3>Damage to Objects</h3>
 <p>Objects suffer both non-lethal and lethal damage as lethal, but ignore non-lethal damage with a bonus less than their Toughness. A "wounded" object is damaged and suffers a 1 point reduction in Toughness. A "disabled" object is badly damaged. Disabled equipment and devices no longer function, while disabled barriers have holes punched through them. A "dying" object is destroyed. Damaged and disabled objects can be repaired. It's up to the Narrator whether or not a destroyed object is repairable; if it is, the Difficulty of the <a href="Skills.php?Name=Craft">Craft</a> check is the same as for creating an entirely new item.</p>

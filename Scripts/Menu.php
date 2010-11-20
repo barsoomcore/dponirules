@@ -49,8 +49,8 @@ $sublist = array (
     ),
     
     "combatlist" => array (
-		"url" => array ("Combat.php", "CombatInitiative.php", "CombatActions.php", "CombatModifiers.php", "CombatDamage.php", "CombatChases.php"),
-		"name" => array ("Combat", "Initiative", "Actions", "Modifiers", "Damage", "Chases")
+		"url" => array ("Combat.php", "CombatInitiative.php", "CombatActions.php", "CombatModifiers.php", "CombatDamage.php", "CombatEnemies.php", "CombatChases.php"),
+		"name" => array ("Combat", "Initiative", "Actions", "Modifiers", "Damage", "Enemies", "Chases")
 	),
     
     "equipmentlist" => array (
