@@ -38,7 +38,7 @@
 <p>Who goes first is determined by Initiative checks.</p>	
 
 <h2><a href="Powers.php">Power Statistics</a></h2>
-<p>If you are playing an <a href="RolesAdept.php">Adept</a> or a <a href="RolesGeneralist.php">Generalist</a>, note your Max Power Bonus and your Max Power Save Difficulty. The former is equal to your Power Rank plus your Key Ability, while the latter is equal to 9 plus half your Adept or Generalist level plus your Key Ability.</p>
+<p>If you are playing an <a href="RolesAdept.php">Adept</a> or a <a href="RolesGeneralist.php">Generalist</a>, note your Max Power Bonus and your Max Power Save Difficulty. The former is equal to your Power Rank plus your Key Ability, while the latter is equal to 9 plus half your Power ranks (round down) plus your Key Ability.</p>
 
 <a name="Nature"><h2>Nature</h2></a>
 <p>You should choose a Virtue and a Vice for your character. These will afford your character a way to regain Conviction points, so choose ones you'll have fun employing. Some samples:</p>
