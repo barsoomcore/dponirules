@@ -27,7 +27,7 @@ include ("Scripts/HeaderScript.php");
 
 <p>You can create Villains just by using the <a href="CharGen.php">Character creation process</a> just like heroes do. Villains can have all the same feats and powers as heroes, and a villain of the same level ought to be a pretty fair fight for a single hero.</p>
 
-<p>But that can be a lot of work, honestly. Figuring out every feat, every number -- you don't always have time for that. Especially for villains who are just going to get killed anyway. If you just want somebody with some interesting powers, use our handy <a href="../../villains">Villain Generator</a> and away you go.</p>
+<p>But that can be a lot of work, honestly. Figuring out every feat, every number -- you don't always have time for that. Especially for villains who are just going to get killed anyway. If you just want somebody with some interesting powers, use our handy <a href="../dponiwiki/villains">Villain Generator</a> and away you go.</p>
 
 <h3>Creatures</h3>
 
