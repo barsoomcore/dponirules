@@ -225,9 +225,9 @@ $FileNamePop = $FileNameBreak[0];
 // start printing the page
 
 Print "<div id=\"banner\">";
-print "<a href=\"http://www.scratchfactory.com\"><img src=\"/dponiwiki/media/images/SFTransparentLogo.png\" style=\"padding-top:5px;float:right;\"></a>";
+print "<a href=\"http://www.scratchfactory.com\"><img src=\"/dponiwiki/media/banners/SFTransparentLogo.png\" style=\"padding-top:5px;float:right;\"></a>";
 print "<a href=\"Home.php\">"; 
-print "<img style=\"border: none; padding-left: 25px;\" src=\"/dponiwiki/media/images/Banner.png\" alt=\"Banner\"></a>";
+print "<img style=\"border: none; padding-left: 25px;\" src=\"/dponiwiki/media/banners/Banner.png\" alt=\"Banner\"></a>";
 print "</div>";
 print "<div id=\"nav\">";
 print "<ul>";

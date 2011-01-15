@@ -13,7 +13,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel=stylesheet media="screen" href="/dponiwiki/media/dponiwikiStyle.css" type="text/css">
 <link rel=stylesheet media="only screen and (max-device-width: 480px)" href="/dponiwiki/media/dponiwikiiPhoneStyle.css" type="text/css">
-<link rel="icon" type="image/png" href="/dponiwiki/media/images/favicon.png">
+<link rel="icon" type="image/png" href="/dponiwiki/media/favicon.png">
 </head>
 <body>
 <?php 
@@ -25,8 +25,8 @@
 ?>
 <div id="banner">
 <a href="http://www.scratchfactory.com">
-	<img src="/dponiwiki/media/images/SFTransparentLogo.png" style="padding-top:5px;float:right;"></a>
-<img style="border: none; padding-left: 25px;" src="/dponiwiki/media/images/Banner.png" alt="Banner">
+	<img src="/dponiwiki/media/banners/SFTransparentLogo.png" style="padding-top:5px;float:right;"></a>
+<img style="border: none; padding-left: 25px;" src="/dponiwiki/media/banners/Banner.png" alt="Banner">
 </div>
 <div id="nav">
 <ul>
