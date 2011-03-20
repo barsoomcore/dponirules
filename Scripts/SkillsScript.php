@@ -11,7 +11,7 @@ function SkillDetail ($field, $term)
     
     foreach($dataFromFile as $individualListing)
     {
-        list($name, $ability, $trained, $interaction, $specialization, $tools, $description, $check, $challenge, $tryagain, $action, $special) = $individualListing;
+        list($name, $ability, $trained, $armor, $interaction, $specialization, $tools, $description, $check, $challenge, $tryagain, $action, $special) = $individualListing;
         
         // for each entry we create a formatted string using the stats
     
@@ -19,6 +19,7 @@ function SkillDetail ($field, $term)
         $skillstring .= "<h5 style=\"margin-top:0.1em;\">(";
         if ($ability != "") {$skillstring .= "$ability";}
         if ($trained != "") {$skillstring .= "; Trained Only";}
+        if ($armor !="") {$skillstring .= "; Armor Penalty";}
         if ($interaction != "") {$skillstring .= "; Interaction";}
         if ($specialization != "") {$skillstring .= "; Requires Specialization"; }
         if ($tools != "") {$skillstring .= "; Requires Tools"; }
