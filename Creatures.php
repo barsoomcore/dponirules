@@ -40,7 +40,7 @@ include ("Scripts/HeaderScript.php");
 
 <h1 id="title">CREATURES</h1>
 
-<?php MenuList ("Creature", "Data/CreaturesList.data", "CreaturesTest.php"); ?>
+<?php MenuList ("Creature", "Data/CreaturesList.data", "Creatures.php"); ?>
 
 <p id="description"></p>
 <div id="statblock"></div>

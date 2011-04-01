@@ -26,7 +26,7 @@
 
 <h2>Feats</h2>
 
-<p>Her <a href="Feats.php">feats</a> are pretty straightforward, too. As a Raptor DINO-PIRATE she gets <a href="Feats.php?Name=Improved%20Acrobatic%20Charge">Improved Acrobatic Charge</a> and <a href="Feats.php?Name=Lucky">Lucky</a>, both of which go great with her build (high Acrobatics and Charisma), and as a Warrior she gets <a href="Feats.php?Name=Martial%20Weapon%20Training">Martial Weapon Training</a>. That leaves her with three choices -- she picks <a href="Feats.php?Name=Improved%20Initiative">Improved Initiative</a> and <a href="Feats.php?Name=Reckless%20Abandon">Reckless Abandon</a> (which allows her to add that high Charisma to her Dodge), and finally <a href="Feats.php?Name=Reknown">Reknown</a>, which gives her a bonus to <a href="BasicsReputation.php">Reputation</a>.</p>
+<p>Her <a href="Feats.php">feats</a> are pretty straightforward, too. As a Raptor DINO-PIRATE she gets <a href="Feats.php?Name=Improved%20Acrobatic%20Charge">Improved Acrobatic Charge</a> and <a href="Feats.php?Name=Lucky">Lucky</a>, both of which go great with her build (high Acrobatics and Charisma), and as a Warrior she gets <a href="Feats.php?Name=Martial%20Weapon%20Training">Martial Weapon Training</a>. That leaves her with three choices -- she picks <a href="Feats.php?Name=Improved%20Initiative">Improved Initiative</a> and <a href="Feats.php?Name=Reckless%20Abandon">Reckless Abandon</a> (which allows her to add that high Charisma to her Dodge), and finally <a href="Feats.php?Name=Skill%20Focus">Skill Focus (Acrobatics)</a>, which gives her a bonus to that all-important <a href="SKills.php?Name=Acrobatics">Acrobatics</a>.</p>
 
 <h2>Customize</h2>
 

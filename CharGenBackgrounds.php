@@ -23,7 +23,7 @@
 <ul>
 	<li>Bonus <a href="Feats.php">Feats</a>: <a href="Feats.php?Name=Lucky">Lucky</a>, and:</li>
 	<ul>
-		<li><b>Rex:</b> <a href="Feats.php?Name=All-out%20Attack">All-out Attack</a></li>
+		<li><b>Rex:</b> <a href="Feats.php?Name=Intimidating%20Prowess">Intimidating Prowess</a></li>
 		<li><b>Raptor:</b> <a href="Feats.php?Name=Improved%20Acrobatic%20Charge">Improved Acrobatic Charge</a></li>
 		<li><b>Trike:</b> <a href="Feats.php?Name=Improved%20Strike">Improved Strike</a></li>
 		<li><b>Thunder:</b> <a href="Feats.php?Name=Endurance">Endurance</a></li>
