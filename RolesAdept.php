@@ -10,38 +10,23 @@
 
 <h2>Adept Traits</h2>
 <p>Adepts have the following traits:</p>
-<div style="float:left; margin-right:1em; margin-top:-1.5em; "><h4 style="text-align:center">Adept Level<br />Advancement</h4>
-<table class="last-row" width="250px">
-	<th>Level</th><th class="center"><a href="Combat.php">Combat<br />Bonus</a></th><th class="center"><a href="BasicsReputation.php">Reputation<br />Bonus</a></th>
-	<tr class="odd-row"><td>1st</td><td class="center">+0</td><td class="center">+1</td></tr>
-	<tr><td>2nd</td><td class="center">+1</td><td class="center">+1</td></tr>
-	<tr class="odd-row"><td>3rd</td><td class="center">+1</td><td class="center">+1</td></tr>
-	<tr><td>4th</td><td class="center">+2</td><td class="center">+2</td></tr>
-	<tr class="odd-row"><td>5th</td><td class="center">+2</td><td class="center">+2</td></tr>
-	<tr><td>6th</td><td class="center">+3</td><td class="center">+2</td></tr>
-	<tr class="odd-row"><td>7th</td><td class="center">+3</td><td class="center">+2</td></tr>
-	<tr><td>8th</td><td class="center">+4</td><td class="center">+3</td></tr>
-	<tr class="odd-row"><td>9th</td><td class="center">+4</td><td class="center">+3</td></tr>
-	<tr><td>10th</td><td class="center">+5</td><td class="center">+3</td></tr>
-	<tr class="odd-row"><td>11th</td><td class="center">+5</td><td class="center">+3</td></tr>
-	<tr><td>12th</td><td class="center">+6</td><td class="center">+4</td></tr>
-	<tr class="odd-row"><td>13th</td><td class="center">+6</td><td class="center">+4</td></tr>
-	<tr><td>14th</td><td class="center">+7</td><td class="center">+4</td></tr>
-	<tr class="odd-row"><td>15th</td><td class="center">+7</td><td class="center">+4</td></tr>
-	<tr><td>16th</td><td class="center">+8</td><td class="center">+5</td></tr>
-	<tr class="odd-row"><td>17th</td><td class="center">+8</td><td class="center">+5</td></tr>
-	<tr><td>18th</td><td class="center">+9</td><td class="center">+5</td></tr>
-	<tr class="odd-row"><td>19th</td><td class="center">+9</td><td class="center">+5</td></tr>
-	<tr><td>20th</td><td class="center">+10</td><td class="center">+6</td></tr>
-</table></div>
+
 <p><strong><a href="BasicsAbilities.php">Abilities</a>:</strong> Mental abilities are usually more important to adepts than physical ones. Exactly which one depends on the adept's Key Ability (see below). Adepts also find a healthy Constitution helpful, especially if they plan to exercise their arts in the field rather than in the comfort of a college or hermitage.</p>
+
 <p><strong>The Talent (Core Ability):</strong> A character who starts life as an adept can spend a <a href="BasicsConviction.php">Conviction</a> point to make one use of a supernatural power they do not possess, provided that power is not on their <a href="PowersPhilosophies.php">philosophy's barred list of powers</a>.</p>
+
 <p><strong><a href="Skills.php">Skills</a></strong>: At character creation, choose 4 + Intelligence score starting <a href="Skills.php">skills</a> (minimum of 1 -- all starting skills come at 4 ranks). Adepts gain 4 + Int skill ranks per additional level (minimum of 1). Important <a href="Skills.php">skills</a> for adepts include <a href="Skills.php?Name=Concentration">Concentration</a>, <a href="Skills.php?Name=Craft">Craft</a>, <a href="Skills.php?Name=Gather%20Information">Gather Information</a>, <a href="Skills.php?Name=Knowledge">Knowledge</a> (particularly supernatural) and <a href="Skills.php?Name=Notice">Notice</a>.</p>
 
 <p><strong><a href="Feats.php">Feats</a>: </strong>At character creation, choose 4 from either the <a href="Feats.php?Type=General">General</a> or the <a href="Feats.php?Type=Adept">Adept</a> categories. An adept can also choose a power in place of a <a href="Feats.php">feat</a>. Adepts gain a new feat or power each level -- the feat can be chosen from either the <a href="Feats.php?Type=General">General</a> or the <a href="Feats.php?Type=Adept">Adept</a> categories.</p>
+
 <p><strong><a href="BasicsSavingThrows.php">Saving Throws</a>:</strong> Adepts have good Will saves and normal Fortitude and Reflex saves. Adepts also gain a +2 bonus at character creation on their Will saves.</p>
+
+<p><strong><a href="Combat.php">Combat Bonus</a>:</strong> Adepts have a combat bonus equal to half their level, rounded down.</p>
+
 <p><strong><a href="Powers.php">Powers</a>:</strong> Adepts can develop and use certain supernatural <a href="Powers.php">powers</a>. An adept can choose to acquire a power in place of one of the adept's normal <a href="Feats.php">feats</a>, either starting <a href="Feats.php">feats</a> or those acquired by improving in level. So a starting adept can have up to four <a href="Powers.php">powers</a> (at the cost of taking no starting <a href="Feats.php">feats</a>). Each time the adept gains a level the player has a choice of taking a new <a href="Feats.php">feat</a> or a new <a href="Powers.php">power</a>.</p>
+
 <p>An adept's rank with their <a href="Powers.php">powers</a> is equal to their adept level + 3.</p>
+
 <p><strong>Key Ability:</strong> When taking their first level in the adept role, characters must choose which of their mental abilities (Intelligence, Wisdom or Charisma) will serve as their Key Ability. This is the ability that modifies their Power checks and the Difficulty of any saving throws made against their powers. The <a href="Powers.php">Powers section</a> has more details.</p>
 
 

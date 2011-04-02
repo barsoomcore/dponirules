@@ -23,7 +23,7 @@
 <p>There are four Backgrounds for this game, each of which represents a different ancestry: Natives, Dino-Pirates, Ninjas and Imperials. Read over the options, choose one and note your choice on your character sheet.</p>
 
 <h2><a href="Roles.php">Roles</a></h2>
-<p>If you haven't already. pick one of the four roles: <a href="RolesAdept.php">Adept</a>, <a href="RolesExpert.php">Expert</a>, <a href="RolesWarrior.php">Warrior</a>, or <a href="RolesGeneralist.php">Generalist</a>. Your role will determine your <a href="BasicsCombat.php">Combat Bonus</a>, your <a href="BasicsSavingThrows.php">Saving Throws</a>, the number of <a href="Skills.php">Skills</a> you can choose, the <a href="Feats.php">Feats</a> that are available to you, and provides you with a Core Ability. Your role also determines your <a href="BasicsReputation.php">Reputation Bonus</a>. If you choose the <a href="RolesAdept.php">Adept</a> or the <a href="RolesGeneralist.php">Generalist</a> role, you will also have to choose a Key Ability that you use to control <a href="Powers.php">supernatural forces</a>.</p>
+<p>If you haven't already. pick one of the four roles: <a href="RolesAdept.php">Adept</a>, <a href="RolesExpert.php">Expert</a>, <a href="RolesWarrior.php">Warrior</a>, or <a href="RolesGeneralist.php">Generalist</a>. Your role will determine your <a href="BasicsCombat.php">Combat Bonus</a>, your <a href="BasicsSavingThrows.php">Saving Throws</a>, the number of <a href="Skills.php">Skills</a> you can choose, the <a href="Feats.php">Feats</a> that are available to you, and provides you with a Core Ability. If you choose the <a href="RolesAdept.php">Adept</a> or the <a href="RolesGeneralist.php">Generalist</a> role, you will also have to choose a Key Ability that you use to control <a href="Powers.php">supernatural forces</a>.</p>
 
 <h2><a href="BasicsCombat.php">Combat Statistics</a></h2>
 <p>There's a variety of numbers used to keep track of your character's ability in combat. Don't worry too much about all of them yet, but in brief, they are:</p>
@@ -38,7 +38,7 @@
 <p>Who goes first is determined by Initiative checks.</p>	
 
 <h2><a href="Powers.php">Power Statistics</a></h2>
-<p>If you are playing an <a href="RolesAdept.php">Adept</a> or a <a href="RolesGeneralist.php">Generalist</a>, note your Max Power Bonus and your Max Power Save Difficulty. The former is equal to your Power Rank plus your Key Ability, while the latter is equal to 9 plus half your Power ranks (round down) plus your Key Ability.</p>
+<p>If you are playing an <a href="RolesAdept.php">Adept</a> or a <a href="RolesGeneralist.php">Generalist</a>, note your Power Bonus and your Power Save Difficulty. The former is equal to your Power Rank plus your Key Ability, while the latter is equal to 9 plus half your Power ranks (round down) plus your Key Ability.</p>
 
 <a name="Nature"><h2>Nature</h2></a>
 <p>You should choose a Virtue and a Vice for your character. These will afford your character a way to regain Conviction points, so choose ones you'll have fun employing. Some samples:</p>
@@ -62,9 +62,6 @@
 
 <h2><a href="BasicsConviction.php">Conviction Points</a></h2>
 <p>First-level characters start play with three <a href="BasicsConviction.php">Conviction</a> points. Mark these on your character sheet, but remember you'll be using and adding <a href="BasicsConviction.php">Conviction</a> points all the time.</p>
-
-<h2><a href="BasicsReputation.php">Reputation</a></h2>
-<p>A character's <a href="BasicsReputation.php">Reputation</a> modifier determines how well-known they are. As characters rise in level, their fame (or infamy) increase as well. Sometimes, being recognized can be a big advantage. Other times, not so much.</p>
 
 </div>
 </body>

@@ -29,8 +29,6 @@
 	<dd>Spending a Conviction point automatically stabilizes a <a href="PlayingConditions.php?Name=Dying">dying</a> character (you or someone you are assisting); although, this doesn't protect the character from further damage.</dd>
 	<dt>Exit A Scene</dt>
 	<dd>You can spend a Conviction point to automatically <a href="BasicsTime.php#Exit">exit a Scene</a>. Another participant in the scene may spend a Conviction point to interfere with your exit, if they desire.</dd>
-	<dt>Take Advantage of Another's Reputation:</dt>
-	<dd>You can spend a Conviction point to gain a bonus against a target's interaction skills equal to the target's <a href="BasicsReputation.php">Reputation</a>. The target may spend a Conviction point to end this effect.</dd>
 	<dt>Quotable Wit:</dt>
 	<dd>Any time a player says something worthy of being quoted (usually because it reduces the GM to helpless tears of laughter), any player may spend a conviction point to designate that comment as "Quotable Wit". A piece of quotable wit grants a +2 bonus to any related situation in which it is used. A maximum of three pieces of quotable wit may be used in any game session. Likewise, each piece of quotable wit may only be used once, and only those who heard its original use may benefit. Note that your enemies may hi-jack your quotable wit for their own purposes; irony's a bitch sometimes.</dd>
 </dl>

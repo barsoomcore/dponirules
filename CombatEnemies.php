@@ -41,7 +41,6 @@ include ("Scripts/HeaderScript.php");
 
 <ul>
 	<li>Minions do not have <a href="BasicsConviction.php">Conviction</a></li>
-	<li>Minions have no <a href="BasicsReputation.php">Reputation</a> and only count half their level when determining the Difficulty of Reputation checks made against them.</li>
 	<li>Minions cannot score <a href="Combat.php#Damage">critical hits</a> against non-minions.</li>
 	<li>Non-minions can take 10 on <a href="Combat.php#AttackBonsu">attack rolls</a> against minions (attackers normally cannot take 10 on <a href="Combat.php#AttackBonus">attack rolls</a>).</li>
 	<li>For every five points by which a character's attack roll exceeds a minion's <a href="Combat.php#BaseDefense">Parry or Dodge</a>, the attack strikes another minion within five feet of the character, dealing damage to all.</li>

@@ -13,7 +13,6 @@
 
 <p class="notation">Stunt Bonus = (Skill Bonus / 5) Round UP</p>
 
-<p>*You may also use your <a href="BasicsReputation.php">Reputation</a> as a source of a Stunt Bonus. As with skills, divide your Reputation score by 5 and round up.</p>
 <p>The player must describe (in a more or less convincing manner) how the skill is being used in order to receive the stunt bonus. A stunt bonus may be conceived of and applied AFTER the results of the check are known. The GM is the final arbiter of stunts and may disallow any suggested stunt at her discretion. The stunt bonus may be applied to any ONE of the following:</p>
 <ul>
 	<li>A <a href="Skills.php">Skill Check</a> or <a href="BasicsAbilities.php">Ability Check</a></li>

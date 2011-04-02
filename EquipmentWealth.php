@@ -82,7 +82,6 @@
 <p>A character's Wealth bonus recovers as the character advances.</p>
 <p>Characters use their skills to earn a living. A skill used to earn Wealth is called a professional skill. Discuss with the Narrator what skill would be appropriate for your hero's profession, which can change, at the Narrator's discretion, as your character moves from one profession to another.</p>
 <p>Characters use professional skills to improve their Wealth. You make a professional skill check to improve your Wealth score every time you attain a new level. The Difficulty is your current Wealth score. If you succeed, your Wealth score increases by +1. For every 5 points the check result exceeds the Difficulty, your Wealth score increases by an additional +1. You can't take 10 or 20 when making a professional skill check to improve your Wealth score. </p>
-<p>You may, if you wish, substitute any amount of Wealth increase you get from your professional skill check to improve your <a href="BasicsReputation.php">Reputation</a> rather than your Wealth.</p>
 <p>Your rank in your current professional skill also automatically adds to the Wealth score increase you receive upon gaining a new level. See the accompanying table for details. (This bonus is accounted for in a character's starting Wealth score of +5.)</p>
 
 <table>

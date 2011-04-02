@@ -21,25 +21,25 @@
 
 <p>Any <a href="Roles.php">role</a> that is able to use powers has a number of power ranks, listed in the <a href="Roles.php">role</a> description itself. Characters who start play as <a href="RolesAdept.php">adepts</a> start with four power ranks, while characters who start as <a href="RolesGeneralist.php">generalists</a> start with three. <a href="RolesAdept.php">Adepts</a> gain another power rank every level; <a href="RolesGeneralist.php">generalists</a> proceed a little slower.</p>
 
-<p>Power ranks are used to determine your <em>Power Bonus</em>, your <em>Power Save Difficulty</em> and will often have an effect on how potent your powers can be manifested. You can also spend power ranks to improve your Resilience roll.</p>
+<p>Power ranks are used to determine your <em>Power Bonus</em>, your <em>Power Save Difficulty</em> and will often have an effect on how potent your powers can be manifested.</p>
 
 <h3>Power Bonus</h3>
 
-<p>Your maximum Power Bonus is normally equal to your total ranks + your key ability (some feats or items may provide you with an additional bonus). If you use ranks to improve your Resilience roll, they must be subtracted from all other uses, including your Power Bonus.</p>
+<p>Your Power Bonus is equal to your total ranks + your key ability (some feats or items may provide you with an additional bonus).</p>
 
-<p class="notation">Max Power Bonus = Power ranks + Key Ability + other modifiers</p>
+<p class="notation">Power Bonus = Power ranks + Key Ability + other modifiers</p>
 
 <p>Whenever a power description directs you to make a power check, you make a roll modified by your Power Bonus.</p>
 
 <h3>Power Save Difficulty</h3>
 
-<p>Whenever someone makes a saving throw against your powers, the Difficulty they need to succeed on is equal to 9 + half your ranks (round down) + your key ability. Again, if you use ranks to improve your Resilience roll, this decreases your Save Difficulty.</p>
+<p>Whenever someone makes a saving throw against your powers, the Difficulty they need to succeed on is equal to 9 + half your ranks (round down) + your key ability.</p>
 
-<p class="notation">Max Power Save Difficulty = 9 + 1/2 Power Ranks + Key Ability</p>
+<p class="notation">Power Save Difficulty = 9 + 1/2 Power Ranks + Key Ability</p>
 
 <a name="Resilience"><h3>Resilience Roll</h3></a>
 
-<p>Some powers are <em>fatiguing</em>. Whenever you use a fatiguing power, you have to make a Resilience roll in order to avoid taking <a href="CombatDamage.php#NonLethalDamage">non-lethal damage</a>. A Resilience roll is a special Wisdom check against a Difficulty of 15. You can improve your Resilience roll by using power ranks: every two ranks you use on your Resilience roll increases your bonus by +1. Ranks you spend in this fashion do not contribute to either your Power Bonus or your Power Save Difficulty, and all qualities of the power are calculated using the reduced number of ranks.</p><p>You must spend at least one rank on the power itself; you cannot spend all ranks on improving your Resilience roll.</p>
+<p>Some powers are <em>fatiguing</em>. Whenever you use a fatiguing power, you have to make a Resilience roll in order to avoid taking <a href="CombatDamage.php#NonLethalDamage">non-lethal damage</a>. A Resilience roll is a Wisdom check against a Difficulty of 15.</p>
 
 <p class="notation">Resilience Roll: Wis vs Difficulty 15</p>
 
@@ -47,7 +47,7 @@
 
 <h3>Example</h3>
 
-<p>Kana the Dino Master wants to compel the mighty T-Rex to carry her through the jungle. She is using the <a href="Powers.php?Name=Dominate">Dominate</a> power, which is fatiguing, so she'll need to make a Resilience roll to avoid damage. As a 10th-level adept she has 13 power ranks, and she has +4 Charisma, which makes her normal Power Save Difficulty (9 + (13/2) + 4 =) 19. But she only has a +2 Wisdom and she really doesn't want to fall over, AND she reckons the T-Rex is pretty easily wiled, so she decides to put six of her power ranks into her Resilience roll. That reduces her Power Save Difficulty to (9 + (7/2) +4 =) 16, but improves her Resilience roll from +2 to +5 (with the additional +3 from the six ranks).</p><p>That means she has to get a 10 on her Resilience roll to avoid a level of damage, and the T-Rex (with a +8 Will save) needs to get an 8.</p><p>Looks like the smart money's on Kana getting pretty tired if she doesn't want to end up as a T-Rex appetizer.</p>
+<p>Kana the Dino Master wants to compel the mighty T-Rex to carry her through the jungle. She is using the <a href="Powers.php?Name=Dominate">Dominate</a> power, which is fatiguing, so she'll need to make a Resilience roll to avoid damage. As a 10th-level adept she has 13 power ranks, and she has +4 Charisma, which makes her Power Save Difficulty (9 + (13/2) + 4 =) 19. But she only has a +2 Wisdom so she has to get a 13 on her Resilience roll to avoid a level of damage, and the T-Rex (with a +8 Will save) needs to get an 11 to resist her Dominate ability.</p><p>Looks like the smart money's on Kana getting pretty tired if she doesn't want to end up as a T-Rex appetizer.</p>
 
 <a name="Range"><h2>Range</h2></a>
 <p>Some powers have specific limitations on the range at which they can be used and these limits are noted in the power description. Other powers are assumed to operate at normal line of sight.</p>

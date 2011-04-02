@@ -33,7 +33,7 @@
 <p>You can perform two tasks at the same time by accepting a +10 modifier to one of the checks. The two tasks, if successful, take as long as the longest of the two takes.</p>
 
 <h3>Done With Style</h3>
-<p>You gain a +2 bonus on your next interaction skill check or <a href="BasicsReputation.php">Reputation check</a> if you succeed on any skill check or attack with the Difficulty increased by 5.</p>
+<p>You gain a +2 bonus on your next interaction skill check if you succeed on any skill check or attack with the Difficulty increased by 5.</p>
 <p>Interaction Skills, by the way, are:</p>
 	
 <?php SkillList("Interaction", "Yes"); ?>

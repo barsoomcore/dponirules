@@ -109,9 +109,6 @@ include ("Scripts/HeaderScript.php");
 	
 	<h3><a href="BasicsConviction.php">Conviction</a></h3>
 	<p>Creatures generally have no <a href="BasicsConviction.php">Conviction</a> points, but can gain <a href="BasicsConviction.php">Conviction</a> by taking levels in a heroic <a href="Roles.php">role</a>, in which case the creature acquires the same <a href="BasicsConviction.php">Conviction</a> as a hero of that level. This is ignored if the Narrator has determined that a particular creature is a <a href="CombatModifiers.php?Name=Minions">minion</a>, since minions don't have <a href="BasicsConviction.php">Conviction</a>.</p>
-	
-	<h3><a href="BasicsReputation.php">Reputation</a></h3>
-	<p>A creature usually has a <a href="BasicsReputation.php">Reputation</a> bonus of +0 but may increase the bonus by taking levels in a heroic <a href="Roles.php">role</a>. The Narrator may decide certain creatures have a higher <a href="BasicsReputation.php">Reputation</a> bonus, as suits the story.</p>
 </div>
 
 </div>
