@@ -4,7 +4,6 @@
 <TITLE>DINO-PIRATES OF NINJA ISLAND!</title>
 <style>
 .HomeBox {
-	border:1px solid black;
 	padding-top:0.5em;
 	padding-bottom:0.5em;
 	margin-bottom:1em
@@ -42,9 +41,9 @@
 
 <h1>DINO-PIRATES OF NINJA ISLAND</h1>
 
-<p>Welcome to the online home of <b>DINO-PIRATES OF NINJA ISLAND</b>! This site provides everything you need to begin playing this swashbuckling game of pulp adventure. You can browse <a href="Basics.php">the complete rules</a>, distributed under the Open Gaming License, and you can learn all about <a href="/dponiwiki/">this fantastic setting</a>, made available under a Creative Commons license so you can add to it yourself!</p>
+<a href="/dponiwiki/"><img src="/dponiwiki/media/images/ShipTitle.png" style="float:right" /></a><p>Welcome to the online home of <b>DINO-PIRATES OF NINJA ISLAND</b>! This site provides everything you need to begin playing this swashbuckling game of pulp adventure. You can browse <a href="Basics.php">the complete rules</a>, distributed under the Open Gaming License, and you can learn all about <a href="/dponiwiki/">this fantastic setting</a>, made available under a Creative Commons license so you can add to it yourself!</p>
 
-<div class="HomeBox">
+<div class="HomeBox" style="margin-top: 2em">
 <img src="/dponiwiki/media/images/SmallSkull.png" style="float:left; margin:0em 0.5em 1em 0.5em;"><h3 style="margin-top:0em">Running a Game?</h3>
 
 <p>If you're looking to run a game of DINO-PIRATES OF NINJA ISLAND, start by picking up the official introductory adventure, <b><a href="http://www.yourgamesnow.com/index.php?main_page=product_info&products_id=2551">SLAVE QUEEN OF THE RUINED CITY</a>, available for only $6.00!</b> Then go over the <a href="Basics.php">Basics</a> on this site and make sure you understand the rules.</p></div>
