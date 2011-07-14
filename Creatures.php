@@ -5,7 +5,7 @@
 	#statblocktable { margin-left: auto; margin-right: auto }
 </style>
 <script type="text/javascript" src="/dponiwiki/media/scripts/jquerymin.js"></script>
-<script type="text/javascript" src="/dponiwiki/media/scripts/dponi_statblock.js"></script>
+<script type="text/javascript" src="/dponiwiki/media/scripts/dponi_objects.js"></script>
 
 <?php
 
