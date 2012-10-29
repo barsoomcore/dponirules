@@ -13,8 +13,11 @@
 		margin-bottom:1em
 		}
 	body {
-		background: url('/dponiwiki/media/images/HomeBackground.png') #D4A15D no-repeat 0px 70px;
 		font-family: 'Bitter', serif;
+	}
+	.container { 
+		background: url('/dponiwiki/media/images/HomeBackground.png') #D4A15D no-repeat 0px 70px;
+		width: 1200px;
 	}
 	h1, h2, h3, h4, a, a:hover { color: #690E10; }
 	.nav-tabs a { color: #690E10; }
@@ -44,14 +47,15 @@
 	});
 </script>
 
-<div class="row">
-	<div id="banner" class="span8" style="background-color:transparent; padding-left: 5px">
+<div class="container">
+<div class="row-fluid">
+	<div id="banner" class="span6" style="background-color:transparent; padding-left: 5px">
 			<a href="Home.php">
 				<img src="/dponiwiki/media/banners/HomeBanner.png" alt="Banner" />
 			</a>
 	</div>
 	
-	<div class="span4">
+	<div class="span5">
 		<ul class="nav nav-tabs pull-right" style="padding-top: 30px; font-size: 150%; border:none;">
 			<li><a href="Basics.php">Rules</a></li>
 			<li><a href="/dponiwiki/page/running-dino-pirates/">Tools</a></li>
@@ -125,8 +129,8 @@
 		</script>
 	</div>
 </div>
-<div class="row">
-	<div class="span4 offset8" style="background: url('/dponiwiki/media/images/HomeBook.png') no-repeat 30px 70px; height: 450px">
+<div class="row-fluid">
+	<div class="span5 offset7" style="background: url('/dponiwiki/media/images/HomeBook.png') no-repeat 30px 70px; height: 450px">
 		<div class="span2 offset2">
 			<p style="padding-top: 170px">
 				<a href="http://www.lulu.com/shop/corey-reid/dino-pirates-rules/paperback/product-20473568.html">
@@ -137,14 +141,14 @@
 	</div>
 </div>
 
-<div class="row">
-	<div class="span3 offset9" style="background-color: #D4A15D; border: solid 4px #690E10; text-align:center; margin-top: -130px;">
+<div class="row-fluid">
+	<div class="span3 offset8" style="background-color: #D4A15D; border: solid 4px #690E10; text-align:center; padding: 2px; margin-top: -130px;">
 		<h2 style="color: #690E10; font-size: 400%">$20</h2>
 		<p style="color: #690E10; font-size:150%; margin-top: 20px;">for 100 pages of swashbuckling prehistoric kung-fu action!</p>
 	</div>
 </div>
 
-<div class="row" style="margin-top: 30px">
+<div class="row-fluid" style="margin-top: 30px">
 	<div id="content" class="span7 offset1">
 		<p class="small"><em>Ninjas, pirates, and dinosaurs. A fantasy Asia, filled with warring island nations. Samurai mounted on domesticated raptors. Bigger dinosaurs hunted by quasi-Polynesian tribesmen. Dueling factions of shadow warriors. Privateers and buccaneers battling the servants of the Imperial Navy. Fallen kingdoms deep in forgotten jungles. And we call it...</em></p>
 		
@@ -163,12 +167,12 @@ Call upon the powers of your ancestors, or trust to your faithful blade, but be 
 		<p>So you don't need the rulebook to decide if you like this game or not, but it's a really nice book, with lots of pictures, and it's handier at the game table. Plus it helps us here at DINO-PIRATE HQ as we work to bring you more and more and better DINO-PIRATICAL goodness!</p>
 	</div>
 	
-	<div class="span4" style="margin-top:50px">
+	<div class="span3" style="margin-top:50px">
 		<h3>What You'll Find in the Rulebook:</h3>
-		<div id="ImageCarousel" class="carousel slide" style="border: solid 4px #690E10">
-			<div class="carousel-inner">
+		<div id="ImageCarousel" class="carousel slide">
+			<div class="carousel-inner"  style="border: solid 4px #690E10; width: 300px">
 				
-				<div class="item active">
+				<div class="item active" >
 					<img src="/dponiwiki/media/images/HomeCarousel/DPoNIFrontCover.png" alt="" />
 					<div class="carousel-caption"><p>All the tools you need to create your own thrilling pulp adventures!</p></div>
 				</div>
@@ -197,6 +201,7 @@ Call upon the powers of your ancestors, or trust to your faithful blade, but be 
  			 <a class="carousel-control right" href="#ImageCarousel" data-slide="next">&rsaquo;</a>
 		</div>
 	</div>
+</div>
 </div>
 </body>
 </html>
