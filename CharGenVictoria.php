@@ -30,7 +30,7 @@
 
 <h2>Customize</h2>
 
-<p>This sort of build is easy to tweak &mdash swap Charisma for Constitution and you have a full-on toe-to-toe combatant who can dish it out. Swap <a href="Skills.php?Name=Diplomacy">Diplomacy</a> for <a href="Skills.php?Name=Stealth">Stealth</a> and you've got a great potential for a sneak-attacking death-dealer. Chose more straightforward feats like <a href="Feats.php?Name=Attack%20Focus">Attack Focus</a> and <a href="Feats.php?Name=Tough">Tough</a> to simplify your combat options. This sort of swashbuckler is one of the most versatile and effective character builds available. Have fun!</p>
+<p>This sort of build is easy to tweak &mdash; swap Charisma for Constitution and you have a full-on toe-to-toe combatant who can dish it out. Swap <a href="Skills.php?Name=Diplomacy">Diplomacy</a> for <a href="Skills.php?Name=Stealth">Stealth</a> and you've got a great potential for a sneak-attacking death-dealer. Chose more straightforward feats like <a href="Feats.php?Name=Attack%20Focus">Attack Focus</a> and <a href="Feats.php?Name=Tough">Tough</a> to simplify your combat options. This sort of swashbuckler is one of the most versatile and effective character builds available. Have fun!</p>
 
 <h2>The Future</h2>
 
